@@ -1,0 +1,58 @@
+[
+  {
+    "id": 13,
+    "name": "1200 (Mèxic) (Type 1)",
+    "productionYears": "1978-1989",
+    "manufacturingPlant": "Puebla, MX",
+    "description": "Després del cessament de la producció a Alemanya, la fabricació de l'Escarabat va continuar a Mèxic amb el motor 1200. Aquests models són coneguts per la seva robustesa i per mantenir l'essència clàssica del disseny original.",
+    "imageUrl": "assets/images/1200_1978mexica.jpg",
+    "isCabriolet": false,
+    "engine": "1192cc, 34 CV",
+    "topSpeed": "115 km/h",
+    "versions": [
+        {"modelYear": "1978", "dateFrom": "1978-01-01", "dateTo": "1978-05-31", "chassisFrom": "1182034031", "chassisTo": "1182108000"},
+        {"modelYear": "1979", "dateFrom": "1978-08-01", "dateTo": "1979-07-31", "chassisFrom": "1192000001", "chassisTo": "1192121136"},
+        {"modelYear": "1980", "dateFrom": "1979-08-01", "dateTo": "1980-07-31", "chassisFrom": "11A0000001", "chassisTo": "11A0023847"},
+        {"modelYear": "1981", "dateFrom": "1980-08-01", "dateTo": "1981-07-31", "chassisFrom": "BM000001", "chassisTo": "BM022137"},
+        {"modelYear": "1982", "dateFrom": "1981-08-01", "dateTo": "1982-07-31", "chassisFrom": "11C000001", "chassisTo": "11C0020121"},
+        {"modelYear": "1983", "dateFrom": "1982-08-01", "dateTo": "1983-07-31", "chassisFrom": "11D000001", "chassisTo": "11D0022363"},
+        {"modelYear": "1984", "dateFrom": "1983-08-01", "dateTo": "1984-07-31", "chassisFrom": "11E000001", "chassisTo": "11E0025000"},
+        {"modelYear": "1985", "dateFrom": "1984-08-01", "dateTo": "1985-07-31", "chassisFrom": "11F000001", "chassisTo": "11F0022000"},
+        {"modelYear": "1986", "dateFrom": "1985-08-01", "dateTo": "1986-07-31", "chassisFrom": "11G000001", "chassisTo": "11G0003293"},
+        {"modelYear": "1987", "dateFrom": "1986-08-01", "dateTo": "1987-07-31", "chassisFrom": "11H000001", "chassisTo": "11H0000212"},
+        {"modelYear": "1988", "dateFrom": "1987-08-01", "dateTo": "1988-07-31", "chassisFrom": "11J000001", "chassisTo": "11J0000099"},
+        {"modelYear": "1989", "dateFrom": "1988-08-01", "dateTo": "1989-07-31", "chassisFrom": "11K000001", "chassisTo": "11K0000122"}
+    ],
+    "relatedModels": [12, 14],
+    "unitsProduced": 317357
+  },
+  {
+    "id": 14,
+    "name": "1600i (Mèxic) (Type 1)",
+    "productionYears": "1990-2003",
+    "manufacturingPlant": "Puebla, MX",
+    "description": "L'etapa final i més modernitzada de l'Escarabat, fabricat a Mèxic. Aquests models van incorporar el motor 1600i amb injecció de combustible, millorant el rendiment i l'eficiència. La producció va concloure el amb la cèlebre 'Última Edició' el 2003.",
+    "imageUrl": "assets/images/1600_1990mexico.jpg",
+    "isCabriolet": false,
+    "engine": "1584cc, 46 CV (Injecció)",
+    "topSpeed": "130 km/h",
+    "versions": [
+        {"modelYear": "1990", "dateFrom": "1989-08-01", "dateTo": "1990-07-31", "chassisFrom": "11L0000001", "chassisTo": "11L0012122"},
+        {"modelYear": "1991", "dateFrom": "1990-08-01", "dateTo": "1991-07-31", "chassisFrom": "11M0000001", "chassisTo": "11M0020000"},
+        {"modelYear": "1992", "dateFrom": "1991-08-01", "dateTo": "1992-07-31", "chassisFrom": "11N0000001", "chassisTo": "11N0015000"},
+        {"modelYear": "1993", "dateFrom": "1992-08-01", "dateTo": "1993-07-31", "chassisFrom": "11P0000001", "chassisTo": "11P0030000"},
+        {"modelYear": "1994", "dateFrom": "1993-08-01", "dateTo": "1994-07-31", "chassisFrom": "11R0000001", "chassisTo": "11R0020000"},
+        {"modelYear": "1995", "dateFrom": "1994-08-01", "dateTo": "1995-07-31", "chassisFrom": "11S0000001", "chassisTo": "11S0010000"},
+        {"modelYear": "1996", "dateFrom": "1995-08-01", "dateTo": "1996-07-31", "chassisFrom": "11T0000001", "chassisTo": "11T0010000"},
+        {"modelYear": "1997", "dateFrom": "1996-08-01", "dateTo": "1997-07-31", "chassisFrom": "11V0000001", "chassisTo": "11V0010000"},
+        {"modelYear": "1998", "dateFrom": "1997-08-01", "dateTo": "1998-07-31", "chassisFrom": "11W0000001", "chassisTo": "11W0010000"},
+        {"modelYear": "1999", "dateFrom": "1998-08-01", "dateTo": "1999-07-31", "chassisFrom": "11X0000001", "chassisTo": "11X0010000"},
+        {"modelYear": "2000", "dateFrom": "1999-08-01", "dateTo": "2000-07-31", "chassisFrom": "11Y0000001", "chassisTo": "11Y0010000"},
+        {"modelYear": "2001", "dateFrom": "2000-08-01", "dateTo": "2001-07-31", "chassisFrom": "1112000001", "chassisTo": "1112010000"},
+        {"modelYear": "2002", "dateFrom": "2001-08-01", "dateTo": "2002-07-31", "chassisFrom": "1122000001", "chassisTo": "1122010000"},
+        {"modelYear": "2003", "dateFrom": "2002-08-01", "dateTo": "2003-07-31", "chassisFrom": "1132000001", "chassisTo": "1132013000"}
+    ],
+    "relatedModels": [13, 47],
+    "unitsProduced": 158123
+  }
+]

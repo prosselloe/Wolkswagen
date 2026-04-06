@@ -1,0 +1,37 @@
+[
+    {
+      "id": 15,
+      "name": "1302 (Type 13)",
+      "productionYears": "1970-1972",
+      "manufacturingPlant": "Wolfsburg, DE / Emden, DE / Ingolstadt, DE",
+      "description": "Conegut com a Super Beetle, el 1302 va introduir una suspensió davantera MacPherson i un nou disseny frontal. Aquest canvi va permetre un maleter més gran i va millorar la conducció. Va ser un intent de modernitzar l'Escarabat per competir amb nous models.",
+      "imageUrl": "assets/images/1302_2.jpg",
+      "isCabriolet": false,
+      "engine": "1300cc, 44 CV",
+      "topSpeed": "125 km/h",
+        "versions": [
+            {"modelYear": "1971", "dateFrom": "1970-08-01", "dateTo": "1971-07-31", "chassisFrom": "1112000001", "chassisTo": "1113143119"},
+            {"modelYear": "1972", "dateFrom": "1971-08-01", "dateTo": "1972-07-31", "chassisFrom": "1122000001", "chassisTo": "1122961362"}
+        ],
+      "relatedModels": [12, 16],
+      "unitsProduced": 2104482
+    },
+    {
+      "id": 16,
+      "name": "1303 (Type 13)",
+      "productionYears": "1972-1975",
+      "manufacturingPlant": "Wolfsburg, DE / Emden, DE / Ingolstadt, DE",
+      "description": "El 1303 va succeir el 1302, introduint un parabrisa panoràmic corbat que va millorar la visibilitat i va donar-li un aspecte més modern. També va incorporar un nou quadre de comandaments i llums posteriors més grans, conegudes com a 'peus d'elefant'. Va ser l'últim gran redisseny de l'Escarabat.",
+      "imageUrl": "assets/images/1303.jpg",
+      "isCabriolet": false,
+      "engine": "1300cc, 44 CV / 1600cc, 50 CV",
+      "topSpeed": "130 km/h",
+        "versions": [
+            {"modelYear": "1973", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "1332000001", "chassisTo": "1333021911"},
+            {"modelYear": "1974", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "1342000001", "chassisTo": "1342266092"},
+            {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "1352000001", "chassisTo": "1352115959"}
+        ],
+      "relatedModels": [15, 13],
+      "unitsProduced": 1403962
+    }
+]

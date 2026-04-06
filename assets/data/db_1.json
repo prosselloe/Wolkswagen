@@ -1,0 +1,237 @@
+[
+  {
+    "id": 0,
+    "name": "Kuebelwagen (1940) (Type 82)",
+    "productionYears": "1940",
+    "manufacturingPlant": "Wolfsburg, DE",
+    "description": "La producció total el 1940 va ser de 1005 Kubelwagen i un xassís.",
+    "imageUrl": "assets/images/kuebelwagen.jpg",
+    "isCabriolet": false,
+    "engine": "985cc, 23.5 CV",
+    "topSpeed": "80 km/h",
+    "versions": [
+      {"modelYear": "1940", "dateFrom": "1940-08-15", "dateTo": "1940-12-31", "chassisFrom": "1-00001", "chassisTo": "1-01006"}
+    ],
+    "relatedModels": [1, 42],
+    "unitsProduced": 1005
+  },  
+  {
+    "id": 1,
+    "name": "Split Window (1940-1942) (Type 1)",
+    "productionYears": "1940-1942",
+    "manufacturingPlant": "Wolfsburg, DE",
+    "description": "Els primers prototips de producció (VW38/39). La icona original amb la lluneta posterior dividida per un muntant central i motor de 985cc. La producció durant la guerra va ser extremadament limitada.",
+    "imageUrl": "assets/images/vw38_1938.jpg",
+    "isCabriolet": false,
+    "engine": "985cc, 23.5 CV",
+    "topSpeed": "100 km/h",
+    "versions": [
+      {"modelYear": "1941", "dateFrom": "1941-01-01", "dateTo": "1941-12-31", "chassisFrom": "1-01007", "chassisTo": "1-05656"},
+      {"modelYear": "1942", "dateFrom": "1942-01-01", "dateTo": "1942-12-31", "chassisFrom": "1-05657", "chassisTo": "1-014383"}
+    ],
+    "relatedModels": [0, 2],
+    "unitsProduced": 13377
+  },
+  {
+    "id": 2,
+    "name": "Split Window (1943-1947) (Type 1)",
+    "productionYears": "1943-1947",
+    "manufacturingPlant": "Wolfsburg, DE",
+    "description": "La producció es reprèn sota control britànic després de la guerra. Són els models que consoliden el disseny 'Split Window' amb el motor de 1131cc i 25CV com a estàndard.",
+    "imageUrl": "assets/images/split1943.jpg",
+    "isCabriolet": false,
+    "engine": "1131cc, 25 CV",
+    "topSpeed": "105 km/h",
+    "versions": [
+      {"modelYear": "1943", "dateFrom": "1943-01-01", "dateTo": "1943-12-31", "chassisFrom": "1-014384", "chassisTo": "1-032302"},
+      {"modelYear": "1944", "dateFrom": "1944-01-01", "dateTo": "1944-12-31", "chassisFrom": "1-032303", "chassisTo": "1-051999"},
+      {"modelYear": "1945", "dateFrom": "1945-01-01", "dateTo": "1945-12-31", "chassisFrom": "1-052000", "chassisTo": "1-053814"},
+      {"modelYear": "1946", "dateFrom": "1946-01-01", "dateTo": "1946-12-31", "chassisFrom": "1-053815", "chassisTo": "1-063796"},
+      {"modelYear": "1947", "dateFrom": "1947-01-01", "dateTo": "1947-12-31", "chassisFrom": "1-063797", "chassisTo": "1-072743"}
+    ],
+    "relatedModels": [1, 3],
+    "unitsProduced": 58360
+  },
+  {
+    "id": 3,
+    "name": "Split Window (1948-1950) (Type 1)",
+    "productionYears": "1948-1950",
+    "manufacturingPlant": "Wolfsburg, DE",
+    "description": "Es comença a perfilar el model d'exportació. La popularitat del cotxe creix a Europa, mantenint l'estètica de la finestra dividida però amb millores constants de qualitat.",
+    "imageUrl": "assets/images/typ1_1948.jpg",
+    "isCabriolet": false,
+    "engine": "1131cc, 25 CV",
+    "topSpeed": "105 km/h",
+    "versions": [
+      {"modelYear": "1948", "dateFrom": "1948-01-01", "dateTo": "1948-12-31", "chassisFrom": "1-072744", "chassisTo": "1-091921"},
+      {"modelYear": "1949", "dateFrom": "1949-01-01", "dateTo": "1949-12-31", "chassisFrom": "1-091922", "chassisTo": "1-138554"},
+      {"modelYear": "1950", "dateFrom": "1950-01-01", "dateTo": "1950-12-31", "chassisFrom": "1-138555", "chassisTo": "1-220133"}
+    ],
+    "relatedModels": [2, 4],
+    "unitsProduced": 147390
+  },
+  {
+    "id": 4,
+    "name": "Split Window (1951-1952) (Type 1)",
+    "productionYears": "1951-1952",
+    "manufacturingPlant": "Wolfsburg, DE",
+    "description": "Versió de luxe destinada al mercat internacional amb millors acabats i detalls cromats que el model \"Standard\". Conviu amb els últims Split i precedeix els Oval.",
+    "imageUrl": "assets/images/split.jpg",
+    "isCabriolet": false,
+    "engine": "1131cc, 25 CV",
+    "topSpeed": "105 km/h",
+    "versions": [
+      {"modelYear": "1951", "dateFrom": "1951-01-01", "dateTo": "1951-12-31", "chassisFrom": "1-220134", "chassisTo": "1-313829"},
+      {"modelYear": "1952", "dateFrom": "1952-01-01", "dateTo": "1952-12-31", "chassisFrom": "1-313830", "chassisTo": "1-428156"},
+      {"modelYear": "1953", "dateFrom": "1953-01-01", "dateTo": "1953-03-09", "chassisFrom": "1-428157", "chassisTo": "1-454950"}
+    ],
+    "relatedModels": [3, 5],
+    "unitsProduced": 234817
+  },
+  {
+    "id": 5,
+    "name": "Oval Window (1953-1956) (Type 1)",
+    "productionYears": "1953-1956",
+    "manufacturingPlant": "Wolfsburg, DE",
+    "description": "A partir de març de 1953, la finestra posterior passa a ser d'una sola peça de forma ovalada (un 23% més gran que la del Split). Aquesta millora en visibilitat ve acompanyada del nou motor de 1192cc i 30 CV.",
+    "imageUrl": "assets/images/oval.jpg",
+    "isCabriolet": false,
+    "engine": "1192cc, 30 CV",
+    "topSpeed": "110 km/h",
+    "versions": [
+        {"modelYear": "1953", "dateFrom": "1953-03-10", "dateTo": "1953-12-31", "chassisFrom": "1-454951", "chassisTo": "1-579682"},
+        {"modelYear": "1954", "dateFrom": "1954-01-01", "dateTo": "1954-12-31", "chassisFrom": "1-579683", "chassisTo": "1-781884"},
+        {"modelYear": "1955", "dateFrom": "1955-01-01", "dateTo": "1955-12-31", "chassisFrom": "1-781885", "chassisTo": "1-1060929"}
+    ],
+    "relatedModels": [4, 6],
+    "unitsProduced": 605979
+  },
+  {
+    "id": 6,
+    "name": "Oval Window (1957-1958) (Type 1)",
+    "productionYears": "1957-1958",
+    "manufacturingPlant": "Wolfsburg, DE",
+    "description": "Els últims i més refinats models de l'era Oval. Incorporen millores en acabats i mecànica, consolidant la seva qualitat abans del canvi de disseny a la finestra rectangular.",
+    "imageUrl": "assets/images/oval1957usaexport.jpg",
+    "isCabriolet": false,
+    "engine": "1192cc, 30 CV",
+    "topSpeed": "112 km/h",
+    "versions": [
+      {"modelYear": "1956", "dateFrom": "1956-01-01", "dateTo": "1956-07-31", "chassisFrom": "1060930", "chassisTo": "1246318"},
+      {"modelYear": "1957", "dateFrom": "1956-08-01", "dateTo": "1957-07-31", "chassisFrom": "1246319", "chassisTo": "1600846"}
+    ],
+    "relatedModels": [5, 7],
+    "unitsProduced": 539917
+  },
+  {
+    "id": 7,
+    "name": "Square Window (1958-1961) (Type 1)",
+    "productionYears": "1959-1961",
+    "manufacturingPlant": "Wolfsburg, DE / Ingolstadt, DE",
+    "description": "S'introdueix la lluneta posterior rectangular gran, un canvi que modernitza el cotxe. El 1961 el motor puja a 34 CV i, de manera crucial, s'incorporen les marxes totalment sincronitzades.",
+    "imageUrl": "assets/images/squarewindow01.jpg",
+    "isCabriolet": false,
+    "engine": "1192cc, 30-34 CV",
+    "topSpeed": "115 km/h",
+    "versions": [
+        {"modelYear": "1958", "dateFrom": "1957-08-01", "dateTo": "1958-07-31", "chassisFrom": "1600847", "chassisTo": "2020302"},
+        {"modelYear": "1959", "dateFrom": "1958-08-01", "dateTo": "1959-07-31", "chassisFrom": "2020303", "chassisTo": "2528282"},
+        {"modelYear": "1960", "dateFrom": "1959-08-01", "dateTo": "1960-07-31", "chassisFrom": "2528283", "chassisTo": "3204566"},
+        {"modelYear": "1961", "dateFrom": "1960-08-01", "dateTo": "1961-07-31", "chassisFrom": "3204567", "chassisTo": "4020589"}
+    ],
+    "relatedModels": [6, 8],
+    "unitsProduced": 2419743
+  },
+  {
+    "id": 8,
+    "name": "Square Window (1962-1965) (Type 1)",
+    "productionYears": "1962-1965",
+    "manufacturingPlant": "Wolfsburg, DE / Ingolstadt, DE",
+    "description": "El disseny de finestra gran es consolida. Són anys de refinament, amb millores en la calefacció, més opcions de colors i acabats interiors, mantenint el fiable motor 1200 de 34 CV.",
+    "imageUrl": "assets/images/squarewindow02.jpg",
+    "isCabriolet": false,
+    "engine": "1192cc, 34 CV",
+    "topSpeed": "115 km/h",
+    "versions": [
+        {"modelYear": "1962", "dateFrom": "1961-08-01", "dateTo": "1962-07-31", "chassisFrom": "4020590", "chassisTo": "4854999"},
+        {"modelYear": "1963", "dateFrom": "1962-08-01", "dateTo": "1963-07-31", "chassisFrom": "4855000", "chassisTo": "5677118"},
+        {"modelYear": "1964", "dateFrom": "1963-08-01", "dateTo": "1964-07-31", "chassisFrom": "5677119", "chassisTo": "6502399"},
+        {"modelYear": "1965", "dateFrom": "1964-08-01", "dateTo": "1965-07-31", "chassisFrom": "115000001", "chassisTo": "115979202"}
+    ],
+    "relatedModels": [7, 9],
+    "unitsProduced": 3461012
+  },
+  {
+    "id": 9,
+    "name": "1300 (1966) (Type 1)",
+    "productionYears": "1966",
+    "manufacturingPlant": "Wolfsburg, DE / Emden, DE",
+    "description": "Any de canvis significatius. S'introdueix el motor de 1300cc (40 CV). A partir d'aquest any model (agost 1965), els fars passen a ser verticals, modernitzant l'aspecte frontal.",
+    "imageUrl": "assets/images/squarewindow03.jpg",
+    "isCabriolet": false,
+    "engine": "1285cc, 40 CV",
+    "topSpeed": "120 km/h",
+    "versions": [
+        {"modelYear": "1966", "dateFrom": "1965-08-01", "dateTo": "1966-07-31", "chassisFrom": "116000001", "chassisTo": "1161021298"}
+    ],
+    "relatedModels": [8, 10],
+    "unitsProduced": 1021298
+  },
+  {
+    "id": 10,
+    "name": "1500 (1967) (Type 1)",
+    "productionYears": "1967",
+    "manufacturingPlant": "Wolfsburg, DE / Emden, DE",
+    "description": "Model de transició clau: s'introdueix el motor de 1500cc (44 CV), s'abandona el sistema elèctric de 6V pel de 12V i s'escurcen les tapes del capó i motor.",
+    "imageUrl": "assets/images/1500_1967.jpg",
+    "isCabriolet": false,
+    "engine": "1493cc, 44 CV",
+    "topSpeed": "125 km/h",
+    "versions": [
+        {"modelYear": "1967", "dateFrom": "1966-08-01", "dateTo": "1967-07-31", "chassisFrom": "117000001", "chassisTo": "117844902"}
+    ],
+    "relatedModels": [9, 11],
+    "unitsProduced": 844902
+  },
+  {
+    "id": 11,
+    "name": "1200, 1300, 1500 (1968-1973) (Type 1)",
+    "productionYears": "1968-1973",
+    "manufacturingPlant": "Wolfsburg, DE / Emden, DE",
+    "description": "Època daurada del model estàndard. La producció a Puebla (Mèxic) comença al 1967. Es reconeix pels muntants dels vidres més fins i el parabrisa més alt. A Mèxic es bateja com a Vocho.",
+    "imageUrl": "assets/images/68.jpg",
+    "isCabriolet": false,
+    "engine": "1200cc, 1300cc, 1500cc",
+    "topSpeed": "115-125 km/h",
+    "versions": [
+        {"modelYear": "1968", "dateFrom": "1967-08-01", "dateTo": "1968-07-31", "chassisFrom": "118000001", "chassisTo": "1181016098"},
+        {"modelYear": "1969", "dateFrom": "1968-08-01", "dateTo": "1969-07-31", "chassisFrom": "119000001", "chassisTo": "1191093704"},
+        {"modelYear": "1970", "dateFrom": "1969-08-01", "dateTo": "1970-07-31", "chassisFrom": "1102000001", "chassisTo": "1103097089"},
+        {"modelYear": "1971", "dateFrom": "1970-08-01", "dateTo": "1971-07-31", "chassisFrom": "1112000001", "chassisTo": "1113143119"},
+        {"modelYear": "1972", "dateFrom": "1971-08-01", "dateTo": "1972-07-31", "chassisFrom": "1122000001", "chassisTo": "1122961362"},
+        {"modelYear": "1973", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "1132000001", "chassisTo": "1133021911"}
+    ],
+    "relatedModels": [10, 12],
+    "unitsProduced": 6328383
+  },
+  {
+    "id": 12,
+    "name": "1600 (1974-1978) (Type 1)",
+    "productionYears": "1974-1978",
+    "manufacturingPlant": "Wolfsburg, DE / Emden, DE / Puebla, MX",
+    "description": "Introducció del Super Beetle (xassís 1303) amb parabrisa corbat panoràmic i tauler de seguretat. Conviu amb el model estàndard, que continua la seva producció a Mèxic.",
+    "imageUrl": "assets/images/73_1200.jpg",
+    "isCabriolet": false,
+    "engine": "1584cc, 50 CV",
+    "topSpeed": "130 km/h",
+    "versions": [
+        {"modelYear": "1974", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "1142000001", "chassisTo": "1142818457"},
+        {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "1152000001", "chassisTo": "1152266092"},
+        {"modelYear": "1976", "dateFrom": "1975-08-01", "dateTo": "1976-07-31", "chassisFrom": "1162000001", "chassisTo": "1162176287"},
+        {"modelYear": "1977", "dateFrom": "1976-08-01", "dateTo": "1977-07-31", "chassisFrom": "1172000001", "chassisTo": "1172096890"},
+        {"modelYear": "1978", "dateFrom": "1977-08-01", "dateTo": "1978-01-31", "chassisFrom": "1182000001", "chassisTo": "1182034030"}
+    ],
+    "relatedModels": [11, 15],
+    "unitsProduced": 1358976
+  }
+]

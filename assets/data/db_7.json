@@ -1,0 +1,161 @@
+[
+  {
+    "id": 43,
+    "name": "VW-Porsche (Karmann) 914/4",
+    "productionYears": "1970-1976",
+    "manufacturingPlant": "Osnabrück, DE",
+    "description": "El Volkswagen-Porsche 914 va ser un esportiu biplaça amb motor central dissenyat, fabricat i comercialitzat en col·laboració per Volkswagen i Porsche entre 1969 i 1976. La versió 914/4, equipada amb un motor de quatre cilindres de Volkswagen, va ser la més popular i accessible.",
+    "imageUrl": "assets/images/vw_porsche_914.jpg",
+    "isCabriolet": true,
+    "engine": "1.7L - 2.0L, 80-100 CV",
+    "topSpeed": "177-190 km/h",
+    "versions": [
+      {"modelYear": "1970", "dateFrom": "1969-08-01", "dateTo": "1970-07-31", "chassisFrom": "4702900001", "chassisTo": "4702913312"},
+      {"modelYear": "1971", "dateFrom": "1970-08-01", "dateTo": "1971-07-31", "chassisFrom": "4712900001", "chassisTo": "4712916231"},
+      {"modelYear": "1972", "dateFrom": "1971-08-01", "dateTo": "1972-07-31", "chassisFrom": "4722900001", "chassisTo": "4722921580"},
+      {"modelYear": "1973", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "4732900001", "chassisTo": "4732927660"},
+      {"modelYear": "1974", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "4742900001", "chassisTo": "4742921370"},
+      {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "4752900001", "chassisTo": "4752911368"},
+      {"modelYear": "1976", "dateFrom": "1975-08-01", "dateTo": "1976-07-31", "chassisFrom": "4762900001", "chassisTo": "4762904100"}
+    ],
+    "relatedModels": [39],
+    "unitsProduced": 118978
+  },
+  {
+    "id": 44,
+    "name": "VW-NSU K 70",
+    "productionYears": "1970-1975",
+    "manufacturingPlant": "Salzgitter, DE",
+    "description": "El K70, originalment un projecte de NSU, va ser llançat com a Volkswagen el 1970. Va ser el primer model de la companyia amb un motor frontal refrigerat per aigua i tracció davantera, marcant un canvi significatiu respecte a la tradició de motors posteriors refrigerats per aire. La seva producció va finalitzar el 1975.",
+    "imageUrl": "assets/images/k70.jpg",
+    "isCabriolet": false,
+    "engine": "1600-1800cc, 75-100 CV",
+    "topSpeed": "148-162 km/h",
+    "versions": [
+      {"modelYear": "1971", "dateFrom": "1970-08-01", "dateTo": "1971-07-31", "chassisFrom": "4812500001", "chassisTo": "4812590000"},
+      {"modelYear": "1972", "dateFrom": "1971-08-01", "dateTo": "1972-07-31", "chassisFrom": "4822500001", "chassisTo": "4822590000"},
+      {"modelYear": "1973", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "4832500001", "chassisTo": "4832590000"},
+      {"modelYear": "1974", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "4842500001", "chassisTo": "4842590000"},
+      {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "4852500001", "chassisTo": "4852504000"}
+    ],
+    "relatedModels": [43],
+    "unitsProduced": 211127
+  },
+  {
+    "id": 45,
+    "name": "Passat B1 (Type 32)",
+    "productionYears": "1973-1980",
+    "manufacturingPlant": "Wolfsburg, DE / Emden, DE",
+    "description": "El Volkswagen Passat B1, llançat el 1973, va ser un cotxe familiar modern que compartia la seva plataforma amb l'Audi 80. Dissenyat per Giorgetto Giugiaro, estava disponible en versions de dues i quatre portes, així com una versió 'Variant' familiar. Va marcar el començament d'una de les sagues de models més exitoses de Volkswagen.",
+    "imageUrl": "assets/images/passat_b1.jpg",
+    "isCabriolet": false,
+    "engine": "1.3L - 1.6L, 55-110 CV",
+    "topSpeed": "145-185 km/h",
+    "versions": [
+      {"modelYear": "1974", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "3242011947", "chassisTo": "3342500000"},
+      {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "3252000001", "chassisTo": "3352500000"},
+      {"modelYear": "1976", "dateFrom": "1975-08-01", "dateTo": "1976-07-31", "chassisFrom": "3262000001", "chassisTo": "3362500000"},
+      {"modelYear": "1977", "dateFrom": "1976-08-01", "dateTo": "1977-07-31", "chassisFrom": "3272000001", "chassisTo": "3372500000"},
+      {"modelYear": "1978", "dateFrom": "1977-08-01", "dateTo": "1978-07-31", "chassisFrom": "3282000001", "chassisTo": "3382500000"},
+      {"modelYear": "1979", "dateFrom": "1978-08-01", "dateTo": "1979-07-31", "chassisFrom": "3292000001", "chassisTo": "3392500000"},
+      {"modelYear": "1980", "dateFrom": "1979-08-01", "dateTo": "1980-07-31", "chassisFrom": "32A2000001", "chassisTo": "33A2500000"}
+    ],
+    "relatedModels": [38, 39],
+    "unitsProduced": 2500000
+  },
+  {
+    "id": 46,
+    "name": "Scirocco (Karmann) Mk1 (Type 53)",
+    "productionYears": "1974-1979",
+    "manufacturingPlant": "Osnabrück, DE",
+    "description": "El Volkswagen Scirocco Mk1 va ser un coupé esportiu dissenyat per Giorgetto Giugiaro, basat en la plataforma del Golf Mk1. Llançat el 1974, oferia un estil més esportiu i elegant que el Golf, i va ser un èxit de vendes. La versió GTI, llançada el 1976, va ser especialment popular.",
+    "imageUrl": "assets/images/scirocco_mk1.jpg",
+    "isCabriolet": false,
+    "engine": "1.1L - 1.6L, 50-110 CV",
+    "topSpeed": "144-185 km/h",
+    "versions": [
+      {"modelYear": "1974", "dateFrom": "1974-02-01", "dateTo": "1974-07-31", "chassisFrom": "5342000001", "chassisTo": "5342030000"},
+      {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "5352000001", "chassisTo": "5352100000"},
+      {"modelYear": "1976", "dateFrom": "1975-08-01", "dateTo": "1976-07-31", "chassisFrom": "5362000001", "chassisTo": "5362120000"},
+      {"modelYear": "1977", "dateFrom": "1976-08-01", "dateTo": "1977-07-31", "chassisFrom": "5372000001", "chassisTo": "5372130000"},
+      {"modelYear": "1978", "dateFrom": "1977-08-01", "dateTo": "1978-07-31", "chassisFrom": "5382000001", "chassisTo": "5382140000"},
+      {"modelYear": "1979", "dateFrom": "1978-08-01", "dateTo": "1979-07-31", "chassisFrom": "5392000001", "chassisTo": "5392150000"}
+    ],
+    "relatedModels": [45],
+    "unitsProduced": 504153
+  },
+  {
+    "id": 47,
+    "name": "Golf i Cabrio Karmann Mk1 (1974-1980) (Type 17)",
+    "productionYears": "1974-1980",
+    "manufacturingPlant": "Wolfsburg, DE",
+    "description": "El Volkswagen Golf Mk1, llançat el 1974, va ser un cotxe revolucionari que va definir el segment dels compactes moderns. Dissenyat per Giorgetto Giugiaro, el seu disseny de tracció davantera i porton posterior va suposar un canvi radical respecte a l'Escarabat. Aquesta primera generació és coneguda per la seva agilitat, eficiència i per introduir la llegendària versió GTI. La versió Cabrio Karmann es va presentar oficialment el febrer de 1979.",
+    "imageUrl": "assets/images/golf_mk1.jpg",
+    "isCabriolet": false,
+    "engine": "1.1L - 1.6L, 50-110 CV",
+    "topSpeed": "140-182 km/h",
+    "versions": [
+      {"modelYear": "1974", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "1742000001", "chassisTo": "1742500000"},
+      {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "1752000001", "chassisTo": "1753500000"},
+      {"modelYear": "1976", "dateFrom": "1975-08-01", "dateTo": "1976-07-31", "chassisFrom": "1762000001", "chassisTo": "1763500000"},
+      {"modelYear": "1977", "dateFrom": "1976-08-01", "dateTo": "1977-07-31", "chassisFrom": "1772000001", "chassisTo": "1773500000"},
+      {"modelYear": "1978", "dateFrom": "1977-08-01", "dateTo": "1978-07-31", "chassisFrom": "1782000001", "chassisTo": "1783500000"},
+      {"modelYear": "1979", "dateFrom": "1978-08-01", "dateTo": "1979-07-31", "chassisFrom": "1792000001", "chassisTo": "1793500000"},
+      {"modelYear": "1980", "dateFrom": "1979-08-01", "dateTo": "1980-07-31", "chassisFrom": "17A2000001", "chassisTo": "17A3500000"}
+    ],
+    "relatedModels": [14, 20],
+    "unitsProduced": 9500000
+  },
+  {
+    "id": 48,
+    "name": "Polo Mk1 (Type 86)",
+    "productionYears": "1975-1979",
+    "manufacturingPlant": "Wolfsburg, DE",
+    "description": "El Volkswagen Polo Mk1, llançat el 1975, va ser un cotxe supermini dissenyat per Bertone, basat en l'Audi 50. Va ser una opció econòmica i pràctica, i va marcar el començament d'una de les sagues de models més exitoses de Volkswagen.",
+    "imageUrl": "assets/images/polo_mk1.jpg",
+    "isCabriolet": false,
+    "engine": "0.9L - 1.3L, 40-60 CV",
+    "topSpeed": "132-152 km/h",
+    "versions": [
+      {"modelYear": "1975", "dateFrom": "1975-03-01", "dateTo": "1975-07-31", "chassisFrom": "8652000001", "chassisTo": "8652120000"},
+      {"modelYear": "1976", "dateFrom": "1975-08-01", "dateTo": "1976-07-31", "chassisFrom": "8662000001", "chassisTo": "8662250000"},
+      {"modelYear": "1977", "dateFrom": "1976-08-01", "dateTo": "1977-07-31", "chassisFrom": "8672000001", "chassisTo": "8672300000"},
+      {"modelYear": "1978", "dateFrom": "1977-08-01", "dateTo": "1978-07-31", "chassisFrom": "8682000001", "chassisTo": "8682350000"},
+      {"modelYear": "1979", "dateFrom": "1978-08-01", "dateTo": "1979-07-31", "chassisFrom": "8692000001", "chassisTo": "8692400000"}
+    ],
+    "relatedModels": [47],
+    "unitsProduced": 500000
+  },
+  {
+    "id": 49,
+    "name": "Jetta Mk1 (Type 16)",
+    "productionYears": "1979",
+    "manufacturingPlant": "Wolfsburg, DE",
+    "description": "El Volkswagen Jetta Mk1 va ser la resposta de Volkswagen a la demanda d'una berlina tradicional basada en el Golf Mk1. Llançat el 1979, oferia un maleter més gran i un disseny més conservador que el Golf, i va ser especialment popular a Amèrica del Nord.",
+    "imageUrl": "assets/images/jetta_mk1.jpg",
+    "isCabriolet": false,
+    "engine": "1.1L - 1.8L, 50-112 CV",
+    "topSpeed": "142-187 km/h",
+    "versions": [
+      {"modelYear": "1979", "dateFrom": "1979-08-01", "dateTo": "1979-12-31", "chassisFrom": "1692000001", "chassisTo": "1692010000"}
+    ],
+    "relatedModels": [46],
+    "unitsProduced": 5710330
+  },
+  {
+    "id": 50,
+    "name": "Transporter T3 (Type 25)",
+    "productionYears": "1979",
+    "manufacturingPlant": "Hanover, DE",
+    "description": "La Volkswagen Transporter T3, coneguda com a T25 al Regne Unit i Vanagon als Estats Units, va ser la tercera generació de la mítica furgoneta de Volkswagen. Es va caracteritzar per un disseny més quadrat i modern que les seves predecessores, i va ser l'última generació amb motor posterior.",
+    "imageUrl": "assets/images/t3_transporter.jpg",
+    "isCabriolet": false,
+    "engine": "1.6L - 2.1L, 50-112 CV",
+    "topSpeed": "127-150 km/h",
+    "versions": [
+      {"modelYear": "1979", "dateFrom": "1979-05-01", "dateTo": "1979-12-31", "chassisFrom": "2592000001", "chassisTo": "2592013000"}
+    ],
+    "relatedModels": [24, 32],
+    "unitsProduced": 1300000
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "name": "Wolfsburg, DE",
+    "flag": "🇩🇪",
+    "coordinates": { "latitude": 52.4227, "longitude": 10.7865 },
+    "dateFrom": "1938",
+    "dateTo": null
+  },
+  {
+    "id": 2,
+    "name": "Hanover, DE",
+    "flag": "🇩🇪",
+    "coordinates": { "latitude": 52.3759, "longitude": 9.7320 },
+    "dateFrom": "1956",
+    "dateTo": null
+  },
+  {
+    "id": 3,
+    "name": "Emden, DE",
+    "flag": "🇩🇪",
+    "coordinates": { "latitude": 53.3675, "longitude": 7.2058 },
+    "dateFrom": "1964",
+    "dateTo": null
+  },
+  {
+    "id": 4,
+    "name": "Ingolstadt, DE",
+    "flag": "🇩🇪",
+    "coordinates": { "latitude": 48.7635, "longitude": 11.4255 },
+    "dateFrom": "1964",
+    "dateTo": null
+  },
+  {
+    "id": 5,
+    "name": "Osnabrück, DE",
+    "flag": "🇩🇪",
+    "coordinates": { "latitude": 52.2799, "longitude": 8.0472 },
+    "dateFrom": "1949",
+    "dateTo": null
+  },
+  {
+    "id": 6,
+    "name": "Brussels, BE",
+    "flag": "🇧🇪",
+    "coordinates": { "latitude": 50.8503, "longitude": 4.3517 },
+    "dateFrom": "1954",
+    "dateTo": "2025"
+  },
+  {
+    "id": 7,
+    "name": "São Bernardo do Campo, BR",
+    "flag": "🇧🇷",
+    "coordinates": { "latitude": -23.6939, "longitude": -46.5650 },
+    "dateFrom": "1959",
+    "dateTo": null
+  },
+  {
+    "id": 8,
+    "name": "Xalostoc, MX",
+    "flag": "🇲🇽",
+    "coordinates": { "latitude": 19.5136, "longitude": -99.0856 },
+    "dateFrom": "1962",
+    "dateTo": "1965"
+  },
+  {
+    "id": 9,
+    "name": "Puebla, MX",
+    "flag": "🇲🇽",
+    "coordinates": { "latitude": 19.0414, "longitude": -98.2063 },
+    "dateFrom": "1967",
+    "dateTo": null
+  },
+  {
+    "id": 10,
+    "name": "Uitenhage (Kariega), ZA",
+    "flag": "🇿🇦",
+    "coordinates": { "latitude": -33.7593, "longitude": 25.4022 },
+    "dateFrom": "1951",
+    "dateTo": null
+  },
+  {
+    "id": 11,
+    "name": "Melbourne (Clayton), AU",
+    "flag": "🇦🇺",
+    "coordinates": { "latitude": -37.8136, "longitude": 144.9631 },
+    "dateFrom": "1954",
+    "dateTo": "1976"
+  },
+  {
+    "id": 12,
+    "name": "Auckland, NZ",
+    "flag": "🇳🇿",
+    "coordinates": { "latitude": -36.8485, "longitude": 174.7633 },
+    "dateFrom": "1950",
+    "dateTo": "1980"
+  },
+  {
+    "id": 13,
+    "name": "Lima, PE",
+    "flag": "🇵🇪",
+    "coordinates": { "latitude": -12.0464, "longitude": -77.0428 },
+    "dateFrom": "1966",
+    "dateTo": "1992"
+  },
+  {
+    "id": 14,
+    "name": "Nueva Palmira, UY",
+    "flag": "🇺🇾",
+    "coordinates": { "latitude": -33.8833, "longitude": -58.4167 },
+    "dateFrom": "1960",
+    "dateTo": "1990"
+  },
+  {
+    "id": 15,
+    "name": "Lagos, NG",
+    "flag": "🇳🇬",
+    "coordinates": { "latitude": 6.5244, "longitude": 3.3792 },
+    "dateFrom": "1975",
+    "dateTo": "1990"
+  },
+  {
+    "id": 16,
+    "name": "Sarajevo, BA",
+    "flag": "🇧🇦",
+    "coordinates": { "latitude": 43.8563, "longitude": 18.4131 },
+    "dateFrom": "1972",
+    "dateTo": "1992"
+  },
+  {
+    "id": 17,
+    "name": "Jakarta, ID",
+    "flag": "🇮🇩",
+    "coordinates": { "latitude": -6.2088, "longitude": 106.8456 },
+    "dateFrom": "1972",
+    "dateTo": null
+  },
+  {
+    "id": 18,
+    "name": "Shah Alam, MY",
+    "flag": "🇲🇾",
+    "coordinates": { "latitude": 3.0738, "longitude": 101.5183 },
+    "dateFrom": "1960",
+    "dateTo": null
+  },
+  {
+    "id": 19,
+    "name": "Heinola, FI",
+    "flag": "🇫🇮",
+    "coordinates": { "latitude": 61.2032, "longitude": 26.0354 },
+    "dateFrom": "1940",
+    "dateTo": "1950"
+  },
+  {
+    "id": 20,
+    "name": "Manila, PH",
+    "flag": "🇵🇭",
+    "coordinates": { "latitude": 14.5995, "longitude": 120.9842 },
+    "dateFrom": "1958",
+    "dateTo": "1980"
+  },
+  {
+    "id": 21,
+    "name": "Palma Sola, VE",
+    "flag": "🇻🇪",
+    "coordinates": { "latitude": 10.6333, "longitude": -68.3000 },
+    "dateFrom": "1963",
+    "dateTo": "1980"
+  },
+  {
+    "id": 22,
+    "name": "Salzgitter, DE",
+    "flag": "🇩🇪",
+    "coordinates": { "latitude": 52.2135, "longitude": 10.3591 },
+    "dateFrom": "1970",
+    "dateTo": null
+  }
+]
