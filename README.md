@@ -1,19 +1,21 @@
-# Visor de Clàssics de Volkswagen
+# Volkswagen Classic App
 
-Aquest projecte és una aplicació Flutter dissenyada per explorar la rica història i els icònics models de vehicles clàssics de Volkswagen.
+Una aplicació per als amants dels cotxes clàssics de Volkswagen.
 
-## Característiques Principals
+## Característiques
 
-*   **Catàleg Extens:** Navega per una col·lecció de 38 models clàssics de Volkswagen.
-*   **Disseny Inspirat en Volkswagen:** Una interfície d'usuari moderna i elegant amb la paleta de colors i la tipografia de Volkswagen.
-*   **Mapa de Fàbriques Interactiu:** Visualitza les plantes de producció en un mapa i filtra els models per la seva fàbrica d'origen.
-*   **Funcionalitat de Cerca i Ordenació:** Troba models ràpidament amb una cerca intuïtiva i ordena la llista per nom, any o unitats produïdes.
-*   **Vistes Detallades:** Toca qualsevol model per accedir a una pantalla completa amb imatges d'alta resolució, descripcions detallades, fitxa tècnica i variants del model.
-*   **Temes Clar i Fosc:** Canvia entre els modes de visualització segons les teves preferències.
+*   **Catàleg de models:** Explora una llista de models clàssics de Volkswagen, amb detalls sobre els seus anys de producció, unitats produïdes i molt més.
+*   **Descodificador de VIN:** Introdueix un número d'identificació del vehicle (VIN) de 17 dígits per obtenir informació detallada sobre el teu cotxe, com el país de fabricació, la planta de muntatge i l'any del model.
+*   **Cerca per número de bastidor:** Introdueix un número de bastidor per identificar el model corresponent i obtenir una data de producció aproximada.
+*   **Mapa de plantes:** Visualitza en un mapa les plantes de fabricació de Volkswagen d'arreu del món.
 
-## Models Destacats
+## Com contribuir
 
-*   **Volkswagen Beetle (Tipus 1):** L'icònic "Escarabat" que va motoritzar el món.
-*   **Volkswagen Bus (Tipus 2):** La llegendària furgoneta, símbol de la contracultura.
-*   **Volkswagen Karmann Ghia (Tipus 14 i 34):** L'elegant coupé i cabriolet.
-*   **I molts més!**
+Si vols contribuir al projecte, pots obrir una "issue" o enviar una "pull request" al repositori de GitHub.
+
+## Crèdits
+
+*   **Amics del Volkswagen de Catalunya:** Grup d'amics que tenen una passió comuna: els seus VW Escarabats, que es va fundar l'any 1983.
+*   **Amics dels Escarabats de ses Illes Balears:** T1, T2, VW, VolksWagen, AirCooled, Beetle, Karmann Ghia, Kubelwagen, Buggy.
+*   **TheSamba.com:** Classified ads, photos, shows, links, forums, and technical information for the Volkswagen automobile.
+*   **Google Firebase Gemini:** Tecnologia d'IA generativa.
