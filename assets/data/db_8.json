@@ -114,10 +114,10 @@
     "engine": "1.6L/1.7L",
     "topSpeed": "149-161 km/h",
     "versions": [
-      {"modelYear": "1973", "dateFrom": "1972-06-23", "dateTo": "1973-08-31", "chassisFrom": "BL-000101", "chassisTo": "BL-004300"},
-      {"modelYear": "1974", "dateFrom": "1973-09-01", "dateTo": "1974-08-31", "chassisFrom": "BL-004301", "chassisTo": "BL-007500"},
-      {"modelYear": "1975", "dateFrom": "1974-09-01", "dateTo": "1975-08-31", "chassisFrom": "BL-007501", "chassisTo": "BL-009700"},
-      {"modelYear": "1976", "dateFrom": "1975-09-01", "dateTo": "1975-12-16", "chassisFrom": "BL-009701", "chassisTo": "BL-010307"}
+      {"modelYear": "1973", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "BL-000101", "chassisTo": "BL-004300", "notes": "La producció real va començar el 23 de juny de 1972"},
+      {"modelYear": "1974", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "BL-004301", "chassisTo": "BL-007500"},
+      {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "BL-007501", "chassisTo": "BL-009700"},
+      {"modelYear": "1976", "dateFrom": "1975-08-01", "dateTo": "1975-12-16", "chassisFrom": "BL-009701", "chassisTo": "BL-010307", "notes": "Fi de producció"}
     ],
     "relatedModels": [57],
     "unitsProduced": 10205
@@ -133,13 +133,13 @@
     "engine": "1600cc",
     "topSpeed": "130 km/h",
     "versions": [
-      {"modelYear": "1973", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "1032000001", "chassisTo": "1032147626"},
-      {"modelYear": "1974", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "1042000001", "chassisTo": "1042162481"},
-      {"modelYear": "1975", "dateFrom": "1975-08-01", "dateTo": "1976-07-31", "chassisFrom": "1052000001", "chassisTo": "1052125540"},
-      {"modelYear": "1976", "dateFrom": "1976-08-01", "dateTo": "1977-07-31", "chassisFrom": "1062000001", "chassisTo": "1062154520"},
-      {"modelYear": "1977", "dateFrom": "1977-08-01", "dateTo": "1978-07-31", "chassisFrom": "1072000001", "chassisTo": "1072156310"},
-      {"modelYear": "1978", "dateFrom": "1978-08-01", "dateTo": "1979-07-31", "chassisFrom": "1082000001", "chassisTo": "1082158500"},
-      {"modelYear": "1979", "dateFrom": "1979-08-01", "dateTo": "1980-07-31", "chassisFrom": "1092000001", "chassisTo": "1092153230"}
+      {"modelYear": "1974", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "1032000001", "chassisTo": "1032147626"},
+      {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "1042000001", "chassisTo": "1042162481"},
+      {"modelYear": "1976", "dateFrom": "1975-08-01", "dateTo": "1976-07-31", "chassisFrom": "1052000001", "chassisTo": "1052125540"},
+      {"modelYear": "1977", "dateFrom": "1976-08-01", "dateTo": "1977-07-31", "chassisFrom": "1062000001", "chassisTo": "1062154520"},
+      {"modelYear": "1978", "dateFrom": "1977-08-01", "dateTo": "1978-07-31", "chassisFrom": "1072000001", "chassisTo": "1072156310"},
+      {"modelYear": "1979", "dateFrom": "1978-08-01", "dateTo": "1979-07-31", "chassisFrom": "1082000001", "chassisTo": "1082158500"},
+      {"modelYear": "1980", "dateFrom": "1979-08-01", "dateTo": "1980-07-31", "chassisFrom": "1092000001", "chassisTo": "1092153230"}
     ],
     "relatedModels": [56],
     "unitsProduced": 1063963
@@ -155,12 +155,12 @@
     "engine": "1600cc",
     "topSpeed": "135 km/h",
     "versions": [
-        {"modelYear": "1970", "dateFrom": "1970-08-01", "dateTo": "1971-07-31", "chassisFrom": "BT000001", "chassisTo": "BT016325"},
-        {"modelYear": "1971", "dateFrom": "1971-08-01", "dateTo": "1972-07-31", "chassisFrom": "BT016326", "chassisTo": "BT043915"},
-        {"modelYear": "1972", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "BT043916", "chassisTo": "BT072038"},
-        {"modelYear": "1973", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "BT072039", "chassisTo": "BT085126"},
-        {"modelYear": "1974", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "BT085127", "chassisTo": "BT091239"},
-        {"modelYear": "1975", "dateFrom": "1975-08-01", "dateTo": "1975-08-31", "chassisFrom": "BT091240", "chassisTo": ""}
+        {"modelYear": "1971", "dateFrom": "1970-08-01", "dateTo": "1971-07-31", "chassisFrom": "BT000001", "chassisTo": "BT016325"},
+        {"modelYear": "1972", "dateFrom": "1971-08-01", "dateTo": "1972-07-31", "chassisFrom": "BT016326", "chassisTo": "BT043915"},
+        {"modelYear": "1973", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "BT043916", "chassisTo": "BT072038"},
+        {"modelYear": "1974", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "BT072039", "chassisTo": "BT085126"},
+        {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "BT085127", "chassisTo": "BT091239"},
+        {"modelYear": "1976", "dateFrom": "1975-08-01", "dateTo": "1975-08-31", "chassisFrom": "BT091240", "chassisTo": "", "notes": "Fi de producció"}
     ],
     "relatedModels": [59, 38],
     "unitsProduced": 91239
@@ -176,41 +176,41 @@
     "engine": "1600cc",
     "topSpeed": "135 km/h",
     "versions": [
-        {"modelYear": "1971", "dateFrom": "1971-06-01", "dateTo": "1972-07-31", "chassisFrom": "BS000001", "chassisTo": "BS004809"},
-        {"modelYear": "1972", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "BS004810", "chassisTo": "BS018672"},
-        {"modelYear": "1973", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "BS018673", "chassisTo": "BS035781"},
-        {"modelYear": "1974", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "BS035782", "chassisTo": "BS039913"},
-        {"modelYear": "1975", "dateFrom": "1975-08-01", "dateTo": "1976-01-31", "chassisFrom": "BS039914", "chassisTo": "BS041500"}
+        {"modelYear": "1971", "dateFrom": "1971-06-01", "dateTo": "1971-07-31", "chassisFrom": "BS000001", "chassisTo": "BS004809", "notes": "Inici de producció al juny de 1971"},
+        {"modelYear": "1972", "dateFrom": "1971-08-01", "dateTo": "1972-07-31", "chassisFrom": "BS004810", "chassisTo": "BS018672"},
+        {"modelYear": "1973", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "BS018673", "chassisTo": "BS035781"},
+        {"modelYear": "1974", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "BS035782", "chassisTo": "BS039913"},
+        {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "BS039914", "chassisTo": "BS041500", "notes": "La producció va finalitzar el gener de 1976"}
     ],
     "relatedModels": [58, 38],
     "unitsProduced": 41500
   },
   {
     "id": 60,
-    "name": "Variant I (Model 36)",
-    "productionYears": "1970-1977",
+    "name": "Variant I (Type 36)",
+    "productionYears": "1969-1977",
     "manufacturingPlant": "São Bernardo do Campo, BR",
-    "description": "El Volkswagen Variant, conegut com a Type 3 Squareback, va ser un familiar versàtil i popular al Brasil. La primera generació (Variant I) es va fabricar del 1970 al 1977, oferint un ampli espai de càrrega i la fiabilitat mecànica de la marca.",
+    "description": "El Volkswagen Variant, conegut com a Type 3 Squareback, va ser un familiar versàtil i popular al Brasil. La primera generació (Variant I) es va fabricar del 1969 al 1977, oferint un ampli espai de càrrega i la fiabilitat mecànica de la marca.",
     "imageUrl": "assets/images/variant1.jpg",
     "isCabriolet": false,
     "engine": "1600cc",
     "topSpeed": "135 km/h",
     "versions": [
-        {"modelYear": "1970", "dateFrom": "1970-01-01", "dateTo": "1970-12-31", "chassisFrom": "3602000001", "chassisTo": "3602024100"},
-        {"modelYear": "1971", "dateFrom": "1971-01-01", "dateTo": "1971-12-31", "chassisFrom": "3612000001", "chassisTo": "3612035500"},
-        {"modelYear": "1972", "dateFrom": "1972-01-01", "dateTo": "1972-12-31", "chassisFrom": "3622000001", "chassisTo": "3622038900"},
-        {"modelYear": "1973", "dateFrom": "1973-01-01", "dateTo": "1973-12-31", "chassisFrom": "3632000001", "chassisTo": "3632033000"},
-        {"modelYear": "1974", "dateFrom": "1974-01-01", "dateTo": "1974-12-31", "chassisFrom": "3642000001", "chassisTo": "3642028100"},
-        {"modelYear": "1975", "dateFrom": "1975-01-01", "dateTo": "1975-12-31", "chassisFrom": "3652000001", "chassisTo": "3652030500"},
-        {"modelYear": "1976", "dateFrom": "1976-01-01", "dateTo": "1976-12-31", "chassisFrom": "3662000001", "chassisTo": "3662038000"},
-        {"modelYear": "1977", "dateFrom": "1977-01-01", "dateTo": "1977-12-31", "chassisFrom": "3672000001", "chassisTo": "3672027800"}
+        {"modelYear": "1970", "dateFrom": "1969-08-01", "dateTo": "1970-07-31", "chassisFrom": "3602000001", "chassisTo": "3602024100"},
+        {"modelYear": "1971", "dateFrom": "1970-08-01", "dateTo": "1971-07-31", "chassisFrom": "3612000001", "chassisTo": "3612035500"},
+        {"modelYear": "1972", "dateFrom": "1971-08-01", "dateTo": "1972-07-31", "chassisFrom": "3622000001", "chassisTo": "3622038900"},
+        {"modelYear": "1973", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "3632000001", "chassisTo": "3632033000"},
+        {"modelYear": "1974", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "3642000001", "chassisTo": "3642028100"},
+        {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "3652000001", "chassisTo": "3652030500"},
+        {"modelYear": "1976", "dateFrom": "1975-08-01", "dateTo": "1976-07-31", "chassisFrom": "3662000001", "chassisTo": "3662038000"},
+        {"modelYear": "1977", "dateFrom": "1976-08-01", "dateTo": "1977-07-31", "chassisFrom": "3672000001", "chassisTo": "3672027800"}
     ],
     "relatedModels": [61],
     "unitsProduced": 225900
   },
   {
     "id": 61,
-    "name": "Variant II (Model 30)",
+    "name": "Variant II (Type 30)",
     "productionYears": "1977-1981",
     "manufacturingPlant": "São Bernardo do Campo, BR",
     "description": "La Variant II va ser la successora modernitzada del familiar de Volkswagen al Brasil. Llançada a finals de 1977, presentava un disseny més rectilini i actualitzat, amb una producció total d'aproximadament 293.000 unitats fins al final de la seva vida comercial el 1981.",
@@ -219,12 +219,50 @@
     "engine": "1600cc",
     "topSpeed": "140 km/h",
     "versions": [
-        {"modelYear": "1978", "dateFrom": "1977-12-01", "dateTo": "1978-11-30", "chassisFrom": "3082000001", "chassisTo": "3082039000"},
-        {"modelYear": "1979", "dateFrom": "1978-12-01", "dateTo": "1979-11-30", "chassisFrom": "3092000001", "chassisTo": "3092045000"},
-        {"modelYear": "1980", "dateFrom": "1979-12-01", "dateTo": "1980-11-30", "chassisFrom": "30A0000001", "chassisTo": "30A0032000", "notes": "Canvi a lletres per a l'any (A=80)"},
-        {"modelYear": "1981", "dateFrom": "1980-12-01", "dateTo": "1981-12-31", "chassisFrom": "30B0000001", "chassisTo": "30B0001000", "notes": "Producció residual"}
+        {"modelYear": "1978", "dateFrom": "1977-08-01", "dateTo": "1978-07-31", "chassisFrom": "3082000001", "chassisTo": "3082039000"},
+        {"modelYear": "1979", "dateFrom": "1978-08-01", "dateTo": "1979-07-31", "chassisFrom": "3092000001", "chassisTo": "3092045000"},
+        {"modelYear": "1980", "dateFrom": "1979-08-01", "dateTo": "1980-07-31", "chassisFrom": "30A0000001", "chassisTo": "30A0032000", "notes": "Canvi a lletres per a l'any (A=80)"},
+        {"modelYear": "1981", "dateFrom": "1980-08-01", "dateTo": "1981-07-31", "chassisFrom": "30B0000001", "chassisTo": "30B0001000", "notes": "Producció residual"}
     ],
     "relatedModels": [60],
     "unitsProduced": 293000
+  },
+  {
+    "id": 62,
+    "name": "Karmann Ghia TC (Type 145)",
+    "productionYears": "1970-1976",
+    "manufacturingPlant": "São Bernardo do Campo, BR",
+    "description": "El Volkswagen Karmann Ghia TC (Touring Coupé), conegut internament com a Tipo 145, va ser un model fabricat exclusivament per Volkswagen do Brasil entre els anys 1970 i 1976. Basat en el xassís del VW Variant brasiler i dissenyat per Giorgetto Giugiaro, muntava un motor bóxer de 1.600 cc amb doble carburació. Es van fabricar un total de 18.119 unitats.",
+    "imageUrl": "assets/images/karmann_ghia_tc.jpg",
+    "isCabriolet": false,
+    "engine": "1600cc",
+    "topSpeed": "148 km/h",
+    "versions": [
+        {"modelYear": "1970", "dateFrom": "1969-08-01", "dateTo": "1970-07-31", "chassisFrom": "1452000001", "chassisTo": "1452000021"},
+        {"modelYear": "1971", "dateFrom": "1970-08-01", "dateTo": "1971-07-31", "chassisFrom": "1452000022", "chassisTo": "1452003331"},
+        {"modelYear": "1972", "dateFrom": "1971-08-01", "dateTo": "1972-07-31", "chassisFrom": "1452003332", "chassisTo": "1452008300"},
+        {"modelYear": "1973", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "1452008301", "chassisTo": "1452012800"},
+        {"modelYear": "1974", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "1452012801", "chassisTo": "1452016350"},
+        {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "1452016351", "chassisTo": "1452018100"},
+        {"modelYear": "1976", "dateFrom": "1975-08-01", "dateTo": "1976-07-31", "chassisFrom": "1452018101", "chassisTo": "1452018119"}
+    ],
+    "relatedModels": [55],
+    "unitsProduced": 18119
+  },
+  {
+    "id": 63,
+    "name": "1600 Sedan 4p (Type 103)",
+    "productionYears": "1970-1971",
+    "manufacturingPlant": "São Bernardo do Campo, BR",
+    "description": "El Volkswagen 1600 Sedán 4 portes (Type 103), conegut popularment al Brasil com 'Zé do Caixão', va ser un model de curta producció amb un disseny distintiu. Fabricat entre agost de 1970 i febrer de 1971, es van produir 24.475 unitats abans de ser reemplaçat pel 1600 TL.",
+    "imageUrl": "assets/images/1600_4p.jpg",
+    "isCabriolet": false,
+    "engine": "1600cc",
+    "topSpeed": "130 km/h",
+    "versions": [
+        {"modelYear": "1971", "dateFrom": "1970-08-01", "dateTo": "1971-02-28", "chassisFrom": "B1140001", "chassisTo": "B1164475"}
+    ],
+    "relatedModels": [58],
+    "unitsProduced": 24475
   }
 ]
