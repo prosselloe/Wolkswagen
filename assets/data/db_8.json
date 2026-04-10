@@ -143,5 +143,46 @@
     ],
     "relatedModels": [57],
     "unitsProduced": 1063963
+  },
+  {
+    "id": 58,
+    "name": "TL 1600 (Type 3)",
+    "productionYears": "1970-1975",
+    "manufacturingPlant": "São Bernardo do Campo, BR",
+    "description": "El Volkswagen 1600 TL va ser la versió Fastback del Type 3 produït al Brasil, conegut per la seva línia de sostre inclinada i un disseny més esportiu que el sedan convencional. Es va fabricar entre agost de 1970 i agost de 1975.",
+    "imageUrl": "assets/images/placeholder.png",
+    "isCabriolet": false,
+    "engine": "1600cc",
+    "topSpeed": "135 km/h",
+    "versions": [
+        {"modelYear": "1970", "dateFrom": "1970-08-01", "dateTo": "1971-07-31", "chassisFrom": "BT000001", "chassisTo": "BT016325"},
+        {"modelYear": "1971", "dateFrom": "1971-08-01", "dateTo": "1972-07-31", "chassisFrom": "BT016326", "chassisTo": "BT043915"},
+        {"modelYear": "1972", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "BT043916", "chassisTo": "BT072038"},
+        {"modelYear": "1973", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "BT072039", "chassisTo": "BT085126"},
+        {"modelYear": "1974", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "BT085127", "chassisTo": "BT091239"},
+        {"modelYear": "1975", "dateFrom": "1975-08-01", "dateTo": "1975-08-31", "chassisFrom": "BT091240", "chassisTo": ""}
+    ],
+    "relatedModels": [59, 38],
+    "unitsProduced": 91239
+  },
+  {
+    "id": 59,
+    "name": "TL 1600 4p (Type 107)",
+    "productionYears": "1971-1976",
+    "manufacturingPlant": "São Bernardo do Campo, BR",
+    "description": "El Volkswagen 1600 de 4 portes, basat en el Type 3, va ser un model exclusiu del mercat brasiler. Es va produir des de juny de 1971 fins a gener de 1976 i es va caracteritzar per la seva practicitat, tot i que no va assolir la popularitat d'altres models de la marca.",
+    "imageUrl": "assets/images/tl_1600_4p.jpg",
+    "isCabriolet": false,
+    "engine": "1600cc",
+    "topSpeed": "135 km/h",
+    "versions": [
+        {"modelYear": "1971", "dateFrom": "1971-06-01", "dateTo": "1972-07-31", "chassisFrom": "BS000001", "chassisTo": "BS004809"},
+        {"modelYear": "1972", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "BS004810", "chassisTo": "BS018672"},
+        {"modelYear": "1973", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "BS018673", "chassisTo": "BS035781"},
+        {"modelYear": "1974", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "BS035782", "chassisTo": "BS039913"},
+        {"modelYear": "1975", "dateFrom": "1975-08-01", "dateTo": "1976-01-31", "chassisFrom": "BS039914", "chassisTo": "BS041500"}
+    ],
+    "relatedModels": [58, 38],
+    "unitsProduced": 41500
   }
 ]
