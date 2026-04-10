@@ -84,11 +84,11 @@
   },
   {
     "id": 55,
-    "name": "Karmann-Ghia (Type 14)",
+    "name": "Karmann-Ghia (1962-1972) (Type 14)",
     "productionYears": "1962-1972",
     "manufacturingPlant": "São Bernardo do Campo, BR",
     "description": "El Karmann-Ghia brasiler, conegut per la seva elegància, va ser produït localment per Karmann-Ghia do Brasil. Tot i compartir el nom amb el seu homòleg alemany, el disseny brasiler tenia una estètica pròpia i distintiva.",
-    "imageUrl": "assets/images/karmann14.jpg",
+    "imageUrl": "assets/images/karmann14_cabrio.jpg",
     "isCabriolet": false,
     "engine": "1200cc - 1600cc",
     "topSpeed": "120-135 km/h",
@@ -102,5 +102,46 @@
     ],
     "relatedModels": [40],
     "unitsProduced": 23467
+  },
+  {
+    "id": 56,
+    "name": "Brasilia (1973-1982) (Type 102/104)",
+    "productionYears": "1973-1982",
+    "manufacturingPlant": "São Bernardo do Campo, BR",
+    "description": "El Volkswagen Brasilia es va produir entre 1973 i 1982 al Brasil, amb més d'1 milió d'unitats fabricades (aproximadament 1.063.963, incloent la producció de Nigèria).",
+    "imageUrl": "assets/images/brasilia.jpg",
+    "isCabriolet": false,
+    "engine": "1600cc",
+    "topSpeed": "130 km/h",
+    "versions": [
+      {"modelYear": "1973", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "1032000001", "chassisTo": "1032147626"},
+      {"modelYear": "1974", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "1042000001", "chassisTo": "1042162481"},
+      {"modelYear": "1975", "dateFrom": "1975-08-01", "dateTo": "1976-07-31", "chassisFrom": "1052000001", "chassisTo": "1052125540"},
+      {"modelYear": "1976", "dateFrom": "1976-08-01", "dateTo": "1977-07-31", "chassisFrom": "1062000001", "chassisTo": "1062154520"},
+      {"modelYear": "1977", "dateFrom": "1977-08-01", "dateTo": "1978-07-31", "chassisFrom": "1072000001", "chassisTo": "1072156310"},
+      {"modelYear": "1978", "dateFrom": "1978-08-01", "dateTo": "1979-07-31", "chassisFrom": "1082000001", "chassisTo": "1082158500"},
+      {"modelYear": "1979", "dateFrom": "1979-08-01", "dateTo": "1980-07-31", "chassisFrom": "1092000001", "chassisTo": "1092153230"}
+    ],
+    "relatedModels": [57],
+    "unitsProduced": 1063963
+  },
+  {
+    "id": 57,
+    "name": "SP1/2 (1972-1975) (Type 149)",
+    "productionYears": "1972-1975",
+    "manufacturingPlant": "São Bernardo do Campo, BR",
+    "description": "El Volkswagen SP2 va ser un esportiu dissenyat i construït al Brasil. Va ser produït entre juny de 1972 i desembre de 1975, amb un total de 10.205 unitats (SP1 i SP2 combinats). El SP2, amb el seu motor de 1.7L, va ser la versió més popular, amb aproximadament 10.043 unitats produïdes. El SP1, amb un motor de 1.6L, va tenir una producció molt limitada de només 162 unitats i es va deixar de fabricar per la baixa demanda.",
+    "imageUrl": "assets/images/sp2.png",
+    "isCabriolet": false,
+    "engine": "1.6L/1.7L",
+    "topSpeed": "",
+    "versions": [
+      {"modelYear": "1973", "dateFrom": "1972-06-23", "dateTo": "1973-08-31", "chassisFrom": "BL-000101", "chassisTo": "BL-004300"},
+      {"modelYear": "1974", "dateFrom": "1973-09-01", "dateTo": "1974-08-31", "chassisFrom": "BL-004301", "chassisTo": "BL-007500"},
+      {"modelYear": "1975", "dateFrom": "1974-09-01", "dateTo": "1975-08-31", "chassisFrom": "BL-007501", "chassisTo": "BL-009700"},
+      {"modelYear": "1976", "dateFrom": "1975-09-01", "dateTo": "1975-12-16", "chassisFrom": "BL-009701", "chassisTo": "BL-010307"}
+    ],
+    "relatedModels": [56],
+    "unitsProduced": 10205
   }
 ]
