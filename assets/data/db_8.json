@@ -90,7 +90,7 @@
         {"modelYear": "1973", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "BT043916", "chassisTo": "BT072038"},
         {"modelYear": "1974", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "BT072039", "chassisTo": "BT085126"},
         {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "BT085127", "chassisTo": "BT091239"},
-        {"modelYear": "1976", "dateFrom": "1975-08-01", "dateTo": "1975-08-31", "chassisFrom": "BT091240", "chassisTo": "", "notes": "Fi de producció"}
+        {"modelYear": "1976", "dateFrom": "1975-08-01", "dateTo": "1975-08-31", "chassisFrom": "BT091240", "chassisTo": "BT091240", "notes": "Fi de producció"}
     ],
     "relatedModels": [61, 38],
     "unitsProduced": 91239
@@ -134,10 +134,10 @@
     "engine": "1.6L-1.7L",
     "topSpeed": "149-161 km/h",
     "versions": [
-      {"modelYear": "1973", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "BL-000101", "chassisTo": "BL-004300", "notes": "La producció real va començar el 23 de juny de 1972"},
-      {"modelYear": "1974", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "BL-004301", "chassisTo": "BL-007500"},
-      {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "BL-007501", "chassisTo": "BL-009700"},
-      {"modelYear": "1976", "dateFrom": "1975-08-01", "dateTo": "1975-12-16", "chassisFrom": "BL-009701", "chassisTo": "BL-010307", "notes": "Fi de producció"}
+      {"modelYear": "1973", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "BL000101", "chassisTo": "BL004300", "notes": "La producció real va començar el 23 de juny de 1972"},
+      {"modelYear": "1974", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "BL004301", "chassisTo": "BL007500"},
+      {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "BL007501", "chassisTo": "BL009700"},
+      {"modelYear": "1976", "dateFrom": "1975-08-01", "dateTo": "1975-12-16", "chassisFrom": "BL009701", "chassisTo": "BL010307", "notes": "Fi de producció"}
     ],
     "relatedModels": [56],
     "unitsProduced": 10205
