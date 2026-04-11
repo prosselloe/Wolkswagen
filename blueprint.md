@@ -1,41 +1,27 @@
-# Volkswagen App Blueprint
+# Blueprint: VW Classics App
 
 ## Overview
 
-This application provides information about classic Volkswagen models, including details about their history, production, and technical specifications. It also includes a VIN decoder to identify specific vehicle information.
+This is a Flutter application that serves as a digital encyclopedia for classic Volkswagen models. It allows users to browse a collection of iconic VW cars, view detailed information about each model, and learn about their history and technical specifications.
 
-## Features & Design
+## Features
 
-### Implemented Features:
+* **Model Catalog:** A comprehensive list of classic Volkswagen models, including their names, production years, and images.
+* **Detailed Model Information:** Each model has a dedicated screen with detailed information, including technical specifications, production numbers, and historical context.
+* **Search and Filter:** Users can search for specific models and filter the catalog by manufacturing plant.
+* **Sort:** The list of models can be sorted by name, production year, or number of units produced.
+* **Multi-language Support:** The application is available in multiple languages, including English, Spanish, French, Portuguese, and Catalan.
 
-*   **Model Information:** Displays a comprehensive list of classic Volkswagen models with detailed information and images.
-*   **VIN Decoder:** Allows users to decode a 17-digit VIN to retrieve model and year information.
-*   **Plant Information:** Shows the location of Volkswagen production plants on a map.
-*   **Localization:** The application supports multiple languages.
-*   **Remote Data Loading:** The application fetches data from a remote GitHub repository, with a local fallback for offline use.
+## Changes
 
-### Architecture & Design:
+### Multi-language Descriptions
 
-*   **State Management:** The application uses a simple service-based architecture with `ChangeNotifier` and `Provider` for state management.
-*   **Data Handling:** Data is loaded from JSON files. The application now prioritizes loading data from a remote repository, falling back to local assets if the remote data is unavailable.
-*   **Code Structure:** The code is organized by feature into `models`, `services`, `screens`, and `widgets` folders.
+* Updated the `VWModel` class to include separate fields for descriptions in English, Spanish, French, Portuguese, and Catalan (`description_en`, `description_es`, `description_fr`, `description_pt`, `description_ca`).
+* Modified the `DetailScreen` to dynamically display the description in the user's selected language.
+* Updated the `assets/data/db_*.json` files to include the new description fields for each model and language.
 
-## Current Task: Remote Data Fetching
+## Next Steps
 
-### Plan:
-
-1.  **Add `http` package:** Add the `http` package to the `pubspec.yaml` file to enable HTTP requests.
-2.  **Modify `VWService`:**
-    *   Create a generic function `_loadJsonData` to handle fetching data from the remote repository with a local fallback.
-    *   Update `_loadModels` and `_loadPlants` to use the new `_loadJsonData` function.
-3.  **Modify `VinService`:**
-    *   Implement the same `_loadJsonData` function to fetch `vin_data.json` from the remote repository.
-    *   Update the `init` method to use the new data loading logic.
-
-### Execution:
-
-*   [x] Added the `http` package.
-*   [x] Modified `lib/services/vw_service.dart` to fetch `db_*.json` and `plants.json` from the remote repository.
-*   [x] Modified `lib/services/vin_service.dart` to fetch `vin_data.json` from the remote repository.
-*   [x] Ensured that the application falls back to local assets if the remote data is unavailable.
-*   [x] Created this `blueprint.md` file to document the project.
+* **Image Gallery:** Add a gallery of images for each model.
+* **Video Content:** Include videos of the models (e.g., reviews, historical footage).
+* **User Accounts:** Allow users to create accounts to save their favorite models and add notes.

@@ -10,7 +10,6 @@ void main() {
     await tester.pumpWidget(
       MultiProvider(
         providers: [
-          ChangeNotifierProvider(create: (context) => ThemeProvider()),
           ChangeNotifierProvider(create: (context) => ModelProvider()),
         ],
         child: const VWClassicsApp(), // Usamos el nombre correcto del widget principal
