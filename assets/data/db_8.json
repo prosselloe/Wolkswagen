@@ -101,13 +101,13 @@
   },
   {
     "id": 62,
-    "name": "SP1/2 (1972-1975) (Type 149)",
+    "name": "SP1/2 (Type 149)",
     "productionYears": "1972-1975",
     "manufacturingPlant": "São Bernardo do Campo, BR",
     "description": "El Volkswagen SP2 va ser un esportiu dissenyat i construït al Brasil. Va ser produït entre juny de 1972 i desembre de 1975, amb un total de 10.205 unitats (SP1 i SP2 combinats). El SP2, amb el seu motor de 1.7L, va ser la versió més popular, amb aproximadament 10.043 unitats produïdes. El SP1, amb un motor de 1.6L, va tenir una producció molt limitada de només 162 unitats i es va deixar de fabricar per la baixa demanda.",
     "imageUrl": "assets/images/sp2.jpg",
     "isCabriolet": false,
-    "engine": "1.6L - 1.7L",
+    "engine": "1.6L-1.7L",
     "topSpeed": "149-161 km/h",
     "versions": [
       {"modelYear": "1973", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "BL-000101", "chassisTo": "BL-004300", "notes": "La producció real va començar el 23 de juny de 1972"},
@@ -121,7 +121,7 @@
   {
     "id": 63,
     "name": "Brasilia (1973-1982) (Type 102/104)",
-    "productionYears": "1973-1982",
+    "productionYears": "1973-1980",
     "manufacturingPlant": "São Bernardo do Campo, BR",
     "description": "El Volkswagen Brasilia es va produir entre 1973 i 1982 al Brasil, amb més d'1 milió d'unitats fabricades (aproximadament 1.063.963, incloent la producció de Nigèria).",
     "imageUrl": "assets/images/brasilia.jpg",
@@ -141,3 +141,4 @@
     "unitsProduced": 1063963
   }
 ]
+
