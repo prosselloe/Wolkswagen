@@ -37,7 +37,7 @@ Si vols contribuir al projecte, ets benvingut a obrir una "issue" per reportar e
 <table>
 <tbody>
 <tr>
-<td><img src="assets/images/logo_google_play.png"/></td>
+<td><img src="assets/images/logo_google_play.png" width="320" height="240"/></td>
 <td><img src="assets/images/1200_1978mexica.jpg"/></td>
 <td><img src="assets/images/1302_2.jpg"/></td>
 </tr>
@@ -139,7 +139,7 @@ Si vols contribuir al projecte, ets benvingut a obrir una "issue" per reportar e
 <tr>
 <td><img src="assets/images/vw38_1938.jpg"/></td>
 <td><img src="assets/images/vw_porsche_914.jpg"/></td>
-<td><img src="assets/images/logo.png"/></td>
+<td><img src="assets/images/logo.png" width="320" height="240"/></td>
 </tr>
 </tbody>
 </table>
