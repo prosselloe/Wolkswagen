@@ -6,8 +6,10 @@ class LocaleProvider with ChangeNotifier {
   Locale? get locale => _locale;
 
   void setLocale(Locale newLocale) {
-    _locale = newLocale;
-    notifyListeners();
+    if (_locale != newLocale) {
+      _locale = newLocale;
+      notifyListeners();
+    }
   }
 
   // Helper to get a display name for a locale
@@ -23,10 +25,10 @@ class LocaleProvider with ChangeNotifier {
         return 'Deutsch';
       case 'fr':
         return 'Français';
-      case 'it':
-        return 'Italiano';
+      case 'pt':
+        return 'Português';
       default:
-        return '??';
+        return code.toUpperCase();
     }
   }
 }

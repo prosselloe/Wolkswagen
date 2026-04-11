@@ -2,6 +2,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:volkswagen/services/vin_service.dart';
+import '../l10n/app_localizations.dart';
 
 class VinDecoderDialog extends StatefulWidget {
   const VinDecoderDialog({super.key});
@@ -16,10 +17,11 @@ class _VinDecoderDialogState extends State<VinDecoderDialog> {
   Map<String, String>? _decodedData;
 
   void _decodeVin() {
+    final l10n = AppLocalizations.of(context)!;
     final vin = _vinController.text.trim().toUpperCase();
     if (vin.length != 17) {
       setState(() {
-        _errorText = 'El VIN ha de tenir 17 caràcters.';
+        _errorText = l10n.vinDecoderDialogError17Chars;
         _decodedData = null;
       });
       return;
@@ -38,25 +40,26 @@ class _VinDecoderDialogState extends State<VinDecoderDialog> {
     setState(() {
       if (modelResult != null) {
         _decodedData = {
-          'Model de vehicle': modelResult.modelName,
-          'Any del model': modelResult.modelYear.toString(),
-          'País de fabricació': country ?? 'Desconegut',
-          'Planta de muntatge': plant ?? 'Desconegut',
-          'Fabricant': 'Volkswagen',
-          'Número de seqüència': sequenceNumber,
-          'WMI': wmi,
-          'VDS': vds,
-          'VIS': vis,
+          l10n.vinDecoderDialogVehicleModel: modelResult.modelName,
+          l10n.vinDecoderDialogModelYear: modelResult.modelYear.toString(),
+          l10n.vinDecoderDialogCountry: country ?? l10n.vinDecoderDialogUnknown,
+          l10n.vinDecoderDialogAssemblyPlant: plant ?? l10n.vinDecoderDialogUnknown,
+          l10n.vinDecoderDialogManufacturer: 'Volkswagen',
+          l10n.vinDecoderDialogSequenceNumber: sequenceNumber,
+          l10n.vinDecoderDialogWMI: wmi,
+          l10n.vinDecoderDialogVDS: vds,
+          l10n.vinDecoderDialogVIS: vis,
         };
         _errorText = null;
       } else {
         _decodedData = null;
-        _errorText = 'No s\'ha pogut descodificar el VIN.';
+        _errorText = l10n.vinDecoderDialogErrorDecoding;
       }
     });
   }
 
   void _launchSearch(String model, String year) async {
+    final l10n = AppLocalizations.of(context)!;
     final query = Uri.encodeComponent('$model $year');
     final url = Uri.parse('https://www.google.com/search?q=$query');
     if (await canLaunchUrl(url)) {
@@ -64,69 +67,24 @@ class _VinDecoderDialogState extends State<VinDecoderDialog> {
     } else {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('No s\'ha pogut obrir l\'enllaç')),
+        SnackBar(content: Text(l10n.couldNotOpenLink)),
       );
     }
   }
 
   void _showVinInformationDialog(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Informació sobre el VIN (des de 1980)'),
-        content: const SingleChildScrollView(
-          child: Text(
-            '''Identificació dels números de bastidor Volkswagen a partir de 1980
-
-Els models Volkswagen fabricats a partir de l'1 d'agost de 1979 (any de model 1980) van adoptar aquest nou format de número de bastidor. Els dígits 1-3 són l'identificador mundial del fabricant (WMI), els dígits 4-9 el descriptor del vehicle (VDS), i la resta és l'identificador del cotxe en particular (VIS).
-
-En la pràctica, es pot "descodificar" el número de la següent manera:
-
-**Dígit 1: Lloc de fabricació**
-  - S-Z: Europa
-  - 1-5: Amèrica del Nord
-
-**Dígit 2: Fabricant**
-  - V: Volkswagen
-
-**Dígit 3: Tipus de vehicle**
-  - W: Cotxes de passatgers VW
-  - 1: Vehicles comercials VW
-  - 2: Models tipus furgoneta VW
-
-**El VDS (Vehicle Descriptor Section)**
-
-A continuació, apareix el tipus de vehicle amb informació sobre la plataforma i la carrosseria. Els dígits 4, 5, 6 i 9 es consideren "de farciment" (sovint "ZZZ" per als cotxes venuts a Europa).
-
-**Dígits 7 i 8: Designació del tipus de model VW**
-  - Aquests dos dígits identifiquen la plataforma o model. Exemples:
-  - 17: Golf Mk1
-  - 19: Golf Mk2
-  - 7H: T5
-  - 70: Furgonetes i pick-ups T4
-  - 86: Primers Polo
-
-**Dígit 10: Any del model**
-  - Aquest dígit indica l'any de producció, que va de l'1 d'agost al 31 de juliol.
-  - Comença amb 'A' per a 1980, 'B' per a 1981, i així successivament.
-  - Les lletres I, Q, U, Z i el número 0 no s'utilitzen.
-  - El cicle es repeteix, de manera que 'A' pot ser 1980 o 2010.
-
-**Dígit 11: Fàbrica de construcció**
-  - Indica la planta de fabricació del vehicle. Exemples:
-  - W: Wolfsburg (Alemanya)
-  - E: Emden (Alemanya)
-  - M: Puebla (Mèxic)
-  - V: Westmoreland (EUA) o Palmela (Portugal) (es desambigua amb el dígit 1).
-
-**Dígits 12-17: Número de sèrie exclusiu**
-  - Aquests últims sis dígits són el número de producció seqüencial del vehicle en aquella fàbrica i any, començant per 000001.'''
-          ),
+        title: Text(l10n.vinInfoDialogTitle),
+        content: SingleChildScrollView(
+          child: Text(l10n.vinInfoDialogContent),
         ),
         actions: [
           TextButton(
             onPressed: () => Navigator.of(context).pop(),
-            child: const Text('Tancar'),
+            child: Text(l10n.vinDecoderDialogCloseButton),
           ),
         ],
       ),
@@ -135,15 +93,16 @@ A continuació, apareix el tipus de vehicle amb informació sobre la plataforma 
 
  @override
 Widget build(BuildContext context) {
+  final l10n = AppLocalizations.of(context)!;
   return AlertDialog(
     title: Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        const Text('Descodificador de VIN'),
+        Text(l10n.vinDecoderDialogTitle),
         IconButton(
           icon: const Icon(Icons.info_outline),
           onPressed: () => _showVinInformationDialog(context),
-          tooltip: 'Informació sobre el VIN',
+          tooltip: l10n.vinDecoderDialogInfoTooltip,
         ),
       ],
     ),
@@ -152,15 +111,15 @@ Widget build(BuildContext context) {
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text(
-            'Per a vehicles fabricats al període 1980-2009 (17 dígits).',
-            style: TextStyle(fontSize: 12, fontStyle: FontStyle.italic),
+          Text(
+            l10n.vinDecoderDialogSubtitle,
+            style: const TextStyle(fontSize: 12, fontStyle: FontStyle.italic),
           ),
           const SizedBox(height: 16),
           TextField(
             controller: _vinController,
             decoration: InputDecoration(
-              hintText: 'Introdueix el número de VIN',
+              hintText: l10n.vinDecoderDialogHint,
               errorText: _errorText,
             ),
           ),
@@ -180,7 +139,7 @@ Widget build(BuildContext context) {
                             text: '${entry.key}: ',
                             style: const TextStyle(fontWeight: FontWeight.bold),
                           ),
-                          if (entry.key == 'Model de vehicle')
+                          if (entry.key == l10n.vinDecoderDialogVehicleModel)
                             TextSpan(
                               text: entry.value,
                               style: TextStyle(
@@ -189,7 +148,7 @@ Widget build(BuildContext context) {
                               ),
                               recognizer: TapGestureRecognizer()
                                 ..onTap = () {
-                                  _launchSearch(entry.value, _decodedData!['Any del model']!);
+                                  _launchSearch(entry.value, _decodedData![l10n.vinDecoderDialogModelYear]!);
                                 },
                             )
                           else
@@ -207,11 +166,11 @@ Widget build(BuildContext context) {
     actions: [
       TextButton(
         onPressed: () => Navigator.of(context).pop(),
-        child: const Text('Tancar'),
+        child: Text(l10n.vinDecoderDialogCloseButton),
       ),
       ElevatedButton(
         onPressed: _decodeVin,
-        child: const Text('Descodificar'),
+        child: Text(l10n.vinDecoderDialogDecodeButton),
       ),
     ],
   );

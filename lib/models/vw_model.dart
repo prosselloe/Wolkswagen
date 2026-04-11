@@ -4,7 +4,11 @@ class VWModel {
   final String productionYears;
   final int unitsProduced;
   final String imageUrl;
-  final String description;
+  final String descriptionCa;
+  final String descriptionEn;
+  final String descriptionEs;
+  final String descriptionFr;
+  final String descriptionPt;
   final bool isCabriolet;
   final String? designer;
   final String? engine;
@@ -19,7 +23,11 @@ class VWModel {
     required this.productionYears,
     required this.unitsProduced,
     required this.imageUrl,
-    required this.description,
+    required this.descriptionCa,
+    required this.descriptionEn,
+    required this.descriptionEs,
+    required this.descriptionFr,
+    required this.descriptionPt,
     this.isCabriolet = false,
     this.designer,
     this.engine,
@@ -36,7 +44,11 @@ class VWModel {
       productionYears: json['productionYears'],
       unitsProduced: json['unitsProduced'] ?? 0,
       imageUrl: json['imageUrl'],
-      description: json['description'],
+      descriptionCa: json['description_ca'],
+      descriptionEn: json['description_en'],
+      descriptionEs: json['description_es'],
+      descriptionFr: json['description_fr'],
+      descriptionPt: json['description_pt'],
       isCabriolet: json['isCabriolet'] ?? false,
       designer: json['designer'],
       engine: json['engine'],

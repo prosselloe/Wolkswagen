@@ -2,39 +2,28 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'package:go_router/go_router.dart';
+import 'package:volkswagen/providers/locale_provider.dart';
 import 'package:volkswagen/providers/model_provider.dart';
 import 'package:volkswagen/models/vw_model.dart';
 import 'package:volkswagen/widgets/plant_map.dart';
 import 'package:volkswagen/widgets/chassis_search_dialog.dart';
 import 'package:volkswagen/widgets/vin_decoder_dialog.dart';
 import 'package:volkswagen/screens/about_screen.dart';
-import 'package:volkswagen/services/vin_service.dart'; // Added import
+import 'package:volkswagen/services/vin_service.dart';
 import 'package:intl/intl.dart';
 import 'package:intl/date_symbol_data_local.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
-
-class ThemeProvider with ChangeNotifier {
-  ThemeMode _themeMode = ThemeMode.system;
-
-  ThemeMode get themeMode => _themeMode;
-
-  void toggleTheme() {
-    _themeMode =
-        _themeMode == ThemeMode.light ? ThemeMode.dark : ThemeMode.light;
-    notifyListeners();
-  }
-}
+import 'l10n/app_localizations.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initializeDateFormatting('ca', null);
-  await VinService.init(); // Added initialization
+  await VinService.init();
 
   runApp(
     MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (context) => ModelProvider()),
-        ChangeNotifierProvider(create: (context) => ThemeProvider()),
+        ChangeNotifierProvider(create: (context) => LocaleProvider()),
       ],
       child: const VWClassicsApp(),
     ),
@@ -57,7 +46,7 @@ final GoRouter _router = GoRouter(
           },
         ),
         GoRoute(
-          path: '/about', // Added route
+          path: '/about',
           builder: (context, state) => const AboutScreen(),
         ),
       ],
@@ -175,22 +164,17 @@ class VWClassicsApp extends StatelessWidget {
       ),
     );
 
-    return Consumer<ThemeProvider>(
-      builder: (context, themeProvider, child) {
+    return Consumer<LocaleProvider>(
+      builder: (context, localeProvider, child) {
         return MaterialApp.router(
           routerConfig: _router,
-          title: 'Volkswagen Classic',
+          onGenerateTitle: (context) => AppLocalizations.of(context)!.appTitle,
           theme: lightTheme,
           darkTheme: darkTheme,
-          themeMode: themeProvider.themeMode,
-          localizationsDelegates: const [
-            GlobalMaterialLocalizations.delegate,
-            GlobalWidgetsLocalizations.delegate,
-            GlobalCupertinoLocalizations.delegate,
-          ],
-          supportedLocales: const [
-            Locale('ca', ''), 
-          ],
+          themeMode: ThemeMode.system,
+          locale: localeProvider.locale,
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
+          supportedLocales: AppLocalizations.supportedLocales,
         );
       },
     );
@@ -236,18 +220,19 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final provider = Provider.of<ModelProvider>(context);
-    final themeProvider = Provider.of<ThemeProvider>(context);
+    final localeProvider = Provider.of<LocaleProvider>(context);
     final availablePlants = provider.getAvailablePlants();
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Volkswagen Classic'),
+        title: Text(l10n.appTitle),
         actions: [
           IconButton(
             icon: const Icon(Icons.info_outline),
             onPressed: () => context.go('/about'),
-            tooltip: 'Quant a l\'aplicació',
+            tooltip: l10n.aboutScreenTitle,
           ),
           IconButton(
             icon: const Icon(Icons.pin_outlined),
@@ -257,7 +242,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 builder: (context) => const VinDecoderDialog(),
               );
             },
-            tooltip: 'Descodificador de VIN',
+            tooltip: l10n.vinDecoderTooltip,
           ),
           IconButton(
             icon: const Icon(Icons.numbers),
@@ -267,21 +252,12 @@ class _HomeScreenState extends State<HomeScreen> {
                 builder: (context) => const ChassisSearchDialog(),
               );
             },
-            tooltip: 'Cercar per bastidor',
-          ),
-          IconButton(
-            icon: Icon(
-              themeProvider.themeMode == ThemeMode.dark
-                  ? Icons.light_mode
-                  : Icons.dark_mode_outlined,
-            ),
-            onPressed: () => themeProvider.toggleTheme(),
-            tooltip: 'Canviar tema',
+            tooltip: l10n.chassisSearchTooltip,
           ),
           if (availablePlants.isNotEmpty)
             PopupMenuButton<String>(
               icon: const Icon(Icons.factory_outlined),
-              tooltip: 'Filtrar per planta',
+              tooltip: l10n.filterByPlantTooltip,
               onOpened: () {
                 if (mounted) {
                   setState(() {
@@ -306,9 +282,9 @@ class _HomeScreenState extends State<HomeScreen> {
               },
               itemBuilder: (BuildContext context) {
                 return [
-                  const PopupMenuItem<String>(
+                  PopupMenuItem<String>(
                     value: null,
-                    child: Text('Totes les plantes'),
+                    child: Text(l10n.allPlants),
                   ),
                   ...availablePlants.map((plant) {
                     return PopupMenuItem<String>(
@@ -329,29 +305,44 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           PopupMenuButton<SortType>(
             icon: const Icon(Icons.sort),
-            tooltip: 'Ordenar',
+            tooltip: l10n.sortTooltip,
             onSelected: (SortType type) {
               provider.sort(type);
             },
             itemBuilder: (BuildContext context) => <PopupMenuEntry<SortType>>[
-              const PopupMenuItem<SortType>(
+              PopupMenuItem<SortType>(
                 value: SortType.byName,
-                child: Text('Ordenar per nom'),
+                child: Text(l10n.sortByName),
               ),
-              const PopupMenuItem<SortType>(
+              PopupMenuItem<SortType>(
                 value: SortType.byYear,
-                child: Text('Ordenar per any'),
+                child: Text(l10n.sortByYear),
               ),
-              const PopupMenuItem<SortType>(
+              PopupMenuItem<SortType>(
                 value: SortType.byUnits,
-                child: Text('Ordenar per unitats'),
+                child: Text(l10n.sortByUnits),
               ),
               const PopupMenuDivider(),
-              const PopupMenuItem<SortType>(
+              PopupMenuItem<SortType>(
                 value: SortType.none,
-                child: Text('Per defecte'),
+                child: Text(l10n.defaultSort),
               ),
             ],
+          ),
+          PopupMenuButton<Locale>(
+            icon: const Icon(Icons.language),
+            tooltip: l10n.languageTooltip,
+            onSelected: (Locale locale) {
+              localeProvider.setLocale(locale);
+            },
+            itemBuilder: (BuildContext context) {
+              return AppLocalizations.supportedLocales.map((locale) {
+                return PopupMenuItem<Locale>(
+                  value: locale,
+                  child: Text(localeProvider.getLocaleName(locale.languageCode)),
+                );
+              }).toList();
+            },
           ),
         ],
       ),
@@ -365,11 +356,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   controller: _searchController,
                   onChanged: (value) => provider.search(value),
                   decoration: InputDecoration(
-                    hintText: 'Cercar models...',
+                    hintText: l10n.searchModelsHint,
                     prefixIcon: const Icon(Icons.search),
                     suffixIcon: _searchController.text.isNotEmpty
                         ? IconButton(
                             icon: const Icon(Icons.clear),
+                            tooltip: l10n.clearSearch,
                             onPressed: () {
                               _searchController.clear();
                               provider.search('');
@@ -383,7 +375,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     padding: const EdgeInsets.only(top: 12.0),
                     child: Chip(
                       label: Text(
-                        'Filtre actiu: ${provider.selectedPlant}',
+                        l10n.activeFilter(provider.selectedPlant!),
                       ),
                       onDeleted: () {
                         provider.filterByPlant(null);
@@ -406,11 +398,11 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Consumer<ModelProvider>(
               builder: (context, provider, child) {
                 if (provider.isLoading) {
-                  return const Center(child: CircularProgressIndicator());
+                  return Center(child: Text(l10n.loading));
                 }
 
                 if (provider.models.isEmpty) {
-                  return const Center(child: Text('No s\'han trobat resultats'));
+                  return Center(child: Text(l10n.noResultsFound));
                 }
 
                 return GridView.builder(
@@ -529,9 +521,26 @@ class DetailScreen extends StatelessWidget {
   final VWModel model;
 
   const DetailScreen({super.key, required this.model});
+  String _getDescription(BuildContext context) {
+    final locale = Provider.of<LocaleProvider>(context, listen: false).locale;
+    final languageCode = locale?.languageCode ?? 'ca';
+    switch (languageCode) {
+      case 'en':
+        return model.descriptionEn;
+      case 'es':
+        return model.descriptionEs;
+      case 'fr':
+        return model.descriptionFr;
+      case 'pt':
+        return model.descriptionPt;
+      default:
+        return model.descriptionCa;
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final TextTheme textTheme = Theme.of(context).textTheme;
     final ColorScheme colorScheme = Theme.of(context).colorScheme;
 
@@ -603,7 +612,7 @@ class DetailScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 24),
                   Text(
-                    model.description,
+                    _getDescription(context),
                     style: textTheme.bodyMedium?.copyWith(fontSize: 16),
                     textAlign: TextAlign.justify,
                   ),
@@ -622,20 +631,20 @@ class DetailScreen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Fitxa tècnica',
+                            l10n.technicalSheet,
                             style: textTheme.titleLarge,
                           ),
                           const Divider(height: 24),
                           if (model.designer != null)
                             _buildDetailRow(
-                              'Dissenyador',
+                              l10n.designer,
                               model.designer!,
                               textTheme,
                               colorScheme,
                               icon: Icons.design_services,
                             ),
                           _buildDetailRow(
-                            'Unitats produïdes',
+                            l10n.unitsProduced,
                             NumberFormat.decimalPattern('ca').format(model.unitsProduced),
                             textTheme,
                             colorScheme,
@@ -643,7 +652,7 @@ class DetailScreen extends StatelessWidget {
                           ),
                           if (model.engine != null)
                             _buildDetailRow(
-                              'Motor',
+                              l10n.engine,
                               model.engine!,
                               textTheme,
                               colorScheme,
@@ -651,7 +660,7 @@ class DetailScreen extends StatelessWidget {
                             ),
                           if (model.topSpeed != null)
                             _buildDetailRow(
-                              'Velocitat màxima',
+                              l10n.topSpeed,
                               model.topSpeed!,
                               textTheme,
                               colorScheme,
@@ -659,7 +668,7 @@ class DetailScreen extends StatelessWidget {
                             ),
                           if (model.manufacturingPlant != null)
                             _buildDetailRow(
-                              'Planta de fabricació',
+                              l10n.manufacturingPlant,
                               model.manufacturingPlant!,
                               textTheme,
                               colorScheme,
@@ -671,7 +680,7 @@ class DetailScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 24),
                   if (model.versions.isNotEmpty) ...[
-                    Text('Anys de model i xassís',
+                    Text(l10n.modelYearsAndChassis,
                         style: textTheme.titleLarge),
                     ...model.versions.map((version) => Card(
                           margin: const EdgeInsets.only(top: 12, bottom: 12),
@@ -682,7 +691,7 @@ class DetailScreen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Any model: ${version.modelYear}',
+                                  l10n.modelYear(version.modelYear),
                                   style: textTheme.titleMedium
                                       ?.copyWith(fontWeight: FontWeight.bold),
                                 ),
@@ -727,7 +736,7 @@ class DetailScreen extends StatelessWidget {
                       return Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text('Models Relacionats', style: textTheme.titleLarge),
+                          Text(l10n.relatedModels, style: textTheme.titleLarge),
                           const SizedBox(height: 16),
                           SizedBox(
                             height: 150,

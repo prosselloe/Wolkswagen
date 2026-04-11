@@ -8,6 +8,7 @@ import 'dart:io';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
 import 'dart:convert';
+import '../l10n/app_localizations.dart';
 
 class AboutScreen extends StatefulWidget {
   const AboutScreen({super.key});
@@ -17,15 +18,22 @@ class AboutScreen extends StatefulWidget {
 }
 
 class AboutScreenState extends State<AboutScreen> {
-  String _readmeContent = 'Carregant...';
+  String _readmeContent = '';
 
   @override
-  void initState() {
-    super.initState();
-    _loadReadme();
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (_readmeContent.isEmpty) {
+      final l10n = AppLocalizations.of(context)!;
+      setState(() {
+        _readmeContent = l10n.loading;
+      });
+      _loadReadme();
+    }
   }
 
   Future<void> _loadReadme() async {
+    final l10n = AppLocalizations.of(context)!;
     try {
       final content = await rootBundle.loadString('README.md');
       final creditsStartIndex = content.indexOf('## Crèdits');
@@ -40,22 +48,24 @@ class AboutScreenState extends State<AboutScreen> {
     } catch (e) {
       if (!mounted) return;
       setState(() {
-        _readmeContent = 'Error al carregar la informació.';
+        _readmeContent = l10n.errorLoadingInfo;
       });
     }
   }
 
   Future<void> _launchURL(String url) async {
+    final l10n = AppLocalizations.of(context)!;
     final Uri uri = Uri.parse(url);
     if (!await launchUrl(uri)) {
       if (!mounted) return; 
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('No s\'ha pogut obrir $url')),
+        SnackBar(content: Text(l10n.couldNotOpenUrl(url))),
       );
     }
   }
 
   Future<void> _exportModelsToCsv() async {
+    final l10n = AppLocalizations.of(context)!;
     try {
       final manifestContent = await rootBundle.loadString('AssetManifest.json');
       final Map<String, dynamic> manifestMap = json.decode(manifestContent);
@@ -82,21 +92,22 @@ class AboutScreenState extends State<AboutScreen> {
       final file = File(path);
       await file.writeAsString(csv);
 
-      await Share.shareXFiles([XFile(path)], text: 'Aquí teniu les dades dels models en format CSV.');
+      await Share.shareXFiles([XFile(path)], text: l10n.csvDataMessage);
 
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Error en exportar les dades: $e')),
+        SnackBar(content: Text(l10n.errorExportingData(e.toString()))),
       );
     }
   }
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Quant a l\'aplicació'),
+        title: Text(l10n.aboutScreenTitle),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
@@ -108,11 +119,11 @@ class AboutScreenState extends State<AboutScreen> {
             ElevatedButton.icon(
               onPressed: _exportModelsToCsv,
               icon: const Icon(Icons.download),
-              label: const Text('Exporta Models a CSV'),
+              label: Text(l10n.exportModelsToCsv),
             ),
             const SizedBox(height: 24),
             Text(
-              'Crèdits',
+              l10n.credits,
               style: Theme.of(context).textTheme.titleLarge,
             ),
             const SizedBox(height: 12),
