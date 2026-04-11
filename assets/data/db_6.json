@@ -82,6 +82,49 @@
     "unitsProduced": 445238
   },
   {
+    "id": 55,
+    "name": "Karmann Ghia (1962-1972) (Type 14)",
+    "productionYears": "1962-1972",
+    "manufacturingPlant": "São Bernardo do Campo, BR",
+    "description": "El Karmann-Ghia brasiler, conegut per la seva elegància, va ser produït localment per Karmann-Ghia do Brasil. Tot i compartir el nom amb el seu homòleg alemany, el disseny brasiler tenia una estètica pròpia i distintiva.",
+    "imageUrl": "assets/images/karmann14_cabrio.jpg",
+    "isCabriolet": false,
+    "engine": "1200cc - 1600cc",
+    "topSpeed": "120-135 km/h",
+    "versions": [
+      {"modelYear": "1962", "dateFrom": "1962-01-01", "dateTo": "1962-07-31", "chassisFrom": "000001", "chassisTo": "000177"},
+      {"modelYear": "1963", "dateFrom": "1962-08-01", "dateTo": "1963-07-31", "chassisFrom": "000178", "chassisTo": "000858"},
+      {"modelYear": "1964", "dateFrom": "1963-08-01", "dateTo": "1964-07-31", "chassisFrom": "000859", "chassisTo": "001869"},
+      {"modelYear": "1965", "dateFrom": "1964-08-01", "dateTo": "1965-07-31", "chassisFrom": "001870", "chassisTo": "003119"},
+      {"modelYear": "1966", "dateFrom": "1965-08-01", "dateTo": "1966-07-31", "chassisFrom": "003120", "chassisTo": "005299"},
+      {"modelYear": "1967", "dateFrom": "1966-08-01", "dateTo": "1967-07-31", "chassisFrom": "B7005300", "chassisTo": "B7008131", "notes": "Canvi de numeració"}
+    ],
+    "relatedModels": [40, 56],
+    "unitsProduced": 23467
+  },
+  {
+    "id": 56,
+    "name": "Karmann Ghia TC (Type 145)",
+    "productionYears": "1970-1976",
+    "manufacturingPlant": "São Bernardo do Campo, BR",
+    "description": "El Volkswagen Karmann Ghia TC (Touring Coupé), conegut internament com a Tipo 145, va ser un model fabricat exclusivament per Volkswagen do Brasil entre els anys 1970 i 1976. Basat en el xassís del VW Variant brasiler i dissenyat per Giorgetto Giugiaro, muntava un motor bóxer de 1.600 cc amb doble carburació. Es van fabricar un total de 18.119 unitats.",
+    "imageUrl": "assets/images/karmann_ghia_tc.jpg",
+    "isCabriolet": false,
+    "engine": "1600cc",
+    "topSpeed": "148 km/h",
+    "versions": [
+        {"modelYear": "1970", "dateFrom": "1969-08-01", "dateTo": "1970-07-31", "chassisFrom": "1452000001", "chassisTo": "1452000021"},
+        {"modelYear": "1971", "dateFrom": "1970-08-01", "dateTo": "1971-07-31", "chassisFrom": "1452000022", "chassisTo": "1452003331"},
+        {"modelYear": "1972", "dateFrom": "1971-08-01", "dateTo": "1972-07-31", "chassisFrom": "1452003332", "chassisTo": "1452008300"},
+        {"modelYear": "1973", "dateFrom": "1972-08-01", "dateTo": "1973-07-31", "chassisFrom": "1452008301", "chassisTo": "1452012800"},
+        {"modelYear": "1974", "dateFrom": "1973-08-01", "dateTo": "1974-07-31", "chassisFrom": "1452012801", "chassisTo": "1452016350"},
+        {"modelYear": "1975", "dateFrom": "1974-08-01", "dateTo": "1975-07-31", "chassisFrom": "1452016351", "chassisTo": "1452018100"},
+        {"modelYear": "1976", "dateFrom": "1975-08-01", "dateTo": "1976-07-31", "chassisFrom": "1452018101", "chassisTo": "1452018119"}
+    ],
+    "relatedModels": [55, 62],
+    "unitsProduced": 18119
+  },
+  {
     "id": 41,
     "name": "Karmann Ghia (Type 34)",
     "productionYears": "1961-1969",
