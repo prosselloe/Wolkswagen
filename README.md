@@ -1,3 +1,5 @@
+<img src="assets/other/logo_google_play.png" alt="Logo Karmann" width="512" height="512" />
+
 # Volkswagen Classic App
 
 Una aplicació completa per als veritables aficionats dels cotxes clàssics de Volkswagen, desenvolupada amb Flutter.
