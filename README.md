@@ -1,4 +1,4 @@
-<img src="assets/other/logo_google_play.png" alt="Logo Karmann" width="512" height="512" />
+<img src="assets/images/logo_google_play.png" alt="Logo Volkswagen" width="512" height="512" />
 
 # Volkswagen Classic App
 
