@@ -32,3 +32,90 @@ Si vols contribuir al projecte, ets benvingut a obrir una "issue" per reportar e
 *   **[Amics dels Escarabats de ses Illes Balears](http://aeib.info):** Comunitat d'entusiastes de models Air-Cooled com el Beetle, Karmann Ghia, T1, T2, etc.
 *   **[TheSamba.com](https://www.thesamba.com/vw/archives/info/bugchassisdating.php):** Un recurs de referència per a anuncis classificats, fotos, esdeveniments, fòrums i informació tècnica sobre l'automòbil Volkswagen.
 *   **[Google Firebase & Gemini](https://firebase.google.com):** La infraestructura de backend i la tecnologia d'IA generativa que impulsen l'aplicació.
+
+## Imatges
+<table>
+<tbody>
+<tr>
+<td width="89">&lt;img src="1200_1978mexica.jpg"/&gt;</td>
+<td width="89">&lt;img src="1302_2.jpg"/&gt;</td>
+<td width="89">&lt;img src="1303.jpg"/&gt;</td>
+<td width="89">&lt;img src="1500_1967.jpg"/&gt;</td>
+<td width="89">&lt;img src="1600_1990mexico.jpg"/&gt;</td>
+<td width="89">&lt;img src="1600_4p.jpg"/&gt;</td>
+<td width="89">&lt;img src="412.jpg"/&gt;</td>
+</tr>
+<tr>
+<td width="89">&lt;img src="68.jpg"/&gt;</td>
+<td width="89">&lt;img src="73_1200.jpg"/&gt;</td>
+<td width="89">&lt;img src="brasilia.jpg"/&gt;</td>
+<td width="89">&lt;img src="cabrio0.jpg"/&gt;</td>
+<td width="89">&lt;img src="cabrio1.jpg"/&gt;</td>
+<td width="89">&lt;img src="cabrio2.jpg"/&gt;</td>
+<td width="89">&lt;img src="cabrio3.jpg"/&gt;</td>
+</tr>
+<tr>
+<td width="89">&lt;img src="golf_mk1.jpg"/&gt;</td>
+<td width="89">&lt;img src="jetta_mk1.jpg"/&gt;</td>
+<td width="89">&lt;img src="k70.jpg"/&gt;</td>
+<td width="89">&lt;img src="karmann14.jpg"/&gt;</td>
+<td width="89">&lt;img src="karmann14_cabrio.jpg"/&gt;</td>
+<td width="89">&lt;img src="karmann34.jpg"/&gt;</td>
+<td width="89">&lt;img src="karmann_ghia_tc.jpg"/&gt;</td>
+</tr>
+<tr>
+<td width="89">&lt;img src="kuebelwagen.jpg"/&gt;</td>
+<td width="89">&lt;img src="oval.jpg"/&gt;</td>
+<td width="89">&lt;img src="oval1957usaexport.jpg"/&gt;</td>
+<td width="89">&lt;img src="passat_b1.jpg"/&gt;</td>
+<td width="89">&lt;img src="polo_mk1.jpg"/&gt;</td>
+<td width="89">&lt;img src="scirocco_mk1.jpg"/&gt;</td>
+<td width="89">&lt;img src="sp2.jpg"/&gt;</td>
+</tr>
+<tr>
+<td width="89">&lt;img src="split.jpg"/&gt;</td>
+<td width="89">&lt;img src="split1943.jpg"/&gt;</td>
+<td width="89">&lt;img src="squarewindow01.jpg"/&gt;</td>
+<td width="89">&lt;img src="squarewindow02.jpg"/&gt;</td>
+<td width="89">&lt;img src="squarewindow03.jpg"/&gt;</td>
+<td width="89">&lt;img src="t1.jpg"/&gt;</td>
+<td width="89">&lt;img src="t1_ambulance.jpg"/&gt;</td>
+</tr>
+<tr>
+<td width="89">&lt;img src="t1_kombi.jpg"/&gt;</td>
+<td width="89">&lt;img src="t1_minibus_7.jpg"/&gt;</td>
+<td width="89">&lt;img src="t1_minibus_8_9.jpg"/&gt;</td>
+<td width="89">&lt;img src="t1_panel.jpg"/&gt;</td>
+<td width="89">&lt;img src="t1_pickup.jpg"/&gt;</td>
+<td width="89">&lt;img src="t1_samba_7.jpg"/&gt;</td>
+<td width="89">&lt;img src="t1_samba_8_9.jpg"/&gt;</td>
+</tr>
+<tr>
+<td width="89">&lt;img src="t2.jpg"/&gt;</td>
+<td width="89">&lt;img src="t2_ambulance.jpg"/&gt;</td>
+<td width="89">&lt;img src="t2_deluxe_7.jpg"/&gt;</td>
+<td width="89">&lt;img src="t2_deluxe_8_9.jpg"/&gt;</td>
+<td width="89">&lt;img src="t2_kombi.jpg"/&gt;</td>
+<td width="89">&lt;img src="t2_minibus_7.jpg"/&gt;</td>
+<td width="89">&lt;img src="t2_minibus_8_9.jpg"/&gt;</td>
+</tr>
+<tr>
+<td width="89">&lt;img src="t2_panel.jpg"/&gt;</td>
+<td width="89">&lt;img src="t2_pickup.jpg"/&gt;</td>
+<td width="89">&lt;img src="t3_transporter.jpg"/&gt;</td>
+<td width="89">&lt;img src="tipus3.jpg"/&gt;</td>
+<td width="89">&lt;img src="tl_1600.jpg"/&gt;</td>
+<td width="89">&lt;img src="tl_1600_4p.jpg"/&gt;</td>
+<td width="89">&lt;img src="typ181.jpg"/&gt;</td>
+</tr>
+<tr>
+<td width="89">&lt;img src="typ1_1948.jpg"/&gt;</td>
+<td width="89">&lt;img src="variant1.jpg"/&gt;</td>
+<td width="89">&lt;img src="variant2.jpg"/&gt;</td>
+<td width="89">&lt;img src="vw38_1938.jpg"/&gt;</td>
+<td width="89">&lt;img src="vw_porsche_914.jpg"/&gt;</td>
+<td width="89">&nbsp;</td>
+<td width="89">&nbsp;</td>
+</tr>
+</tbody>
+</table>
