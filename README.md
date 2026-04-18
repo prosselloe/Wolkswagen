@@ -33,7 +33,7 @@ Si vols contribuir al projecte, ets benvingut a obrir una "issue" per reportar e
 *   **[TheSamba.com](https://www.thesamba.com/vw/archives/info/bugchassisdating.php):** Un recurs de referència per a anuncis classificats, fotos, esdeveniments, fòrums i informació tècnica sobre l'automòbil Volkswagen.
 *   **[Google Firebase & Gemini](https://firebase.google.com):** La infraestructura de backend i la tecnologia d'IA generativa que impulsen l'aplicació.
 
-## Imatges I
+## Imatges V1
 <table>
 <tbody>
 <tr>
@@ -144,11 +144,11 @@ Si vols contribuir al projecte, ets benvingut a obrir una "issue" per reportar e
 </tbody>
 </table>
 
-## Imatges II
+## Imatges V2
 <table>
 <tbody>
 <tr>
-<td><img src="assets/other/logo_google_play.png" width="320" height="240"/></td>
+<td><img src="assets/other/logo_google_play.png" width="500" height="375"/></td>
 <td><img src="assets/other/1200_1978mexica.jpg"/></td>
 <td><img src="assets/other/1302_2.jpg"/></td>
 </tr>
@@ -250,7 +250,7 @@ Si vols contribuir al projecte, ets benvingut a obrir una "issue" per reportar e
 <tr>
 <td><img src="assets/other/vw38_1938.jpg"/></td>
 <td><img src="assets/other/vw_porsche_914.jpg"/></td>
-<td><img src="assets/other/logo.png" width="320" height="240"/></td>
+<td><img src="assets/other/logo.png" width="500" height="375"/></td>
 </tr>
 </tbody>
 </table>
