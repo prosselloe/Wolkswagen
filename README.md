@@ -37,7 +37,7 @@ Si vols contribuir al projecte, ets benvingut a obrir una "issue" per reportar e
 <table>
 <tbody>
 <tr>
-<td><img src="assets/images/logo_google_play.png" width="320" height="240"/></td>
+<td><img src="assets/images/logo_google_play.jpg" width="320" height="240"/></td>
 <td><img src="assets/images/1200_1978mexica.jpg"/></td>
 <td><img src="assets/images/1302_2.jpg"/></td>
 </tr>
@@ -148,7 +148,7 @@ Si vols contribuir al projecte, ets benvingut a obrir una "issue" per reportar e
 <table>
 <tbody>
 <tr>
-<td><img src="assets/other/logo_google_play.png" width="500" height="375"/></td>
+<td><img src="assets/other/logo_google_play.jpg" width="500" height="375"/></td>
 <td><img src="assets/other/1200_1978mexica.jpg"/></td>
 <td><img src="assets/other/1302_2.jpg"/></td>
 </tr>
