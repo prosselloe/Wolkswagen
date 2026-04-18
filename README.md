@@ -33,7 +33,7 @@ Si vols contribuir al projecte, ets benvingut a obrir una "issue" per reportar e
 *   **[TheSamba.com](https://www.thesamba.com/vw/archives/info/bugchassisdating.php):** Un recurs de referència per a anuncis classificats, fotos, esdeveniments, fòrums i informació tècnica sobre l'automòbil Volkswagen.
 *   **[Google Firebase & Gemini](https://firebase.google.com):** La infraestructura de backend i la tecnologia d'IA generativa que impulsen l'aplicació.
 
-## Imatges
+## Imatges I
 <table>
 <tbody>
 <tr>
@@ -140,6 +140,117 @@ Si vols contribuir al projecte, ets benvingut a obrir una "issue" per reportar e
 <td><img src="assets/images/vw38_1938.jpg"/></td>
 <td><img src="assets/images/vw_porsche_914.jpg"/></td>
 <td><img src="assets/images/logo.png" width="320" height="240"/></td>
+</tr>
+</tbody>
+</table>
+
+## Imatges II
+<table>
+<tbody>
+<tr>
+<td><img src="assets/other/logo_google_play.png" width="320" height="240"/></td>
+<td><img src="assets/other/1200_1978mexica.jpg"/></td>
+<td><img src="assets/other/1302_2.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/1303.jpg"/></td>
+<td><img src="assets/other/1500_1967.jpg"/></td>
+<td><img src="assets/other/1600_1990mexico.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/1600_4p.jpg"/></td>
+<td><img src="assets/other/412.jpg"/></td>
+<td><img src="assets/other/68.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/73_1200.jpg"/></td>
+<td><img src="assets/other/brasilia.jpg"/></td>
+<td><img src="assets/other/cabrio0.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/cabrio1.jpg"/></td>
+<td><img src="assets/other/cabrio2.jpg"/></td>
+<td><img src="assets/other/cabrio3.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/golf_mk1.jpg"/></td>
+<td><img src="assets/other/jetta_mk1.jpg"/></td>
+<td><img src="assets/other/k70.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/karmann14.jpg"/></td>
+<td><img src="assets/other/karmann14_cabrio.jpg"/></td>
+<td><img src="assets/other/karmann34.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/karmann_ghia_tc.jpg"/></td>
+<td><img src="assets/other/kuebelwagen.jpg"/></td>
+<td><img src="assets/other/oval.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/oval1957usaexport.jpg"/></td>
+<td><img src="assets/other/passat_b1.jpg"/></td>
+<td><img src="assets/other/polo_mk1.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/scirocco_mk1.jpg"/></td>
+<td><img src="assets/other/sp2.jpg"/></td>
+<td><img src="assets/other/split.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/split1943.jpg"/></td>
+<td><img src="assets/other/squarewindow01.jpg"/></td>
+<td><img src="assets/other/squarewindow02.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/squarewindow03.jpg"/></td>
+<td><img src="assets/other/t1.jpg"/></td>
+<td><img src="assets/other/t1_ambulance.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/t1_kombi.jpg"/></td>
+<td><img src="assets/other/t1_minibus_7.jpg"/></td>
+<td><img src="assets/other/t1_minibus_8_9.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/t1_panel.jpg"/></td>
+<td><img src="assets/other/t1_pickup.jpg"/></td>
+<td><img src="assets/other/t1_samba_7.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/t1_samba_8_9.jpg"/></td>
+<td><img src="assets/other/t2.jpg"/></td>
+<td><img src="assets/other/t2_ambulance.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/t2_deluxe_7.jpg"/></td>
+<td><img src="assets/other/t2_deluxe_8_9.jpg"/></td>
+<td><img src="assets/other/t2_kombi.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/t2_minibus_7.jpg"/></td>
+<td><img src="assets/other/t2_minibus_8_9.jpg"/></td>
+<td><img src="assets/other/t2_panel.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/t2_pickup.jpg"/></td>
+<td><img src="assets/other/t3_transporter.jpg"/></td>
+<td><img src="assets/other/tipus3.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/tl_1600.jpg"/></td>
+<td><img src="assets/other/tl_1600_4p.jpg"/></td>
+<td><img src="assets/other/typ181.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/typ1_1948.jpg"/></td>
+<td><img src="assets/other/variant1.jpg"/></td>
+<td><img src="assets/other/variant2.jpg"/></td>
+</tr>
+<tr>
+<td><img src="assets/other/vw38_1938.jpg"/></td>
+<td><img src="assets/other/vw_porsche_914.jpg"/></td>
+<td><img src="assets/other/logo.png" width="320" height="240"/></td>
 </tr>
 </tbody>
 </table>
